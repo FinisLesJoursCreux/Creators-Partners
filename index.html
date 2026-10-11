@@ -1,0 +1,1412 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>CREATORS PARTNERS | Développe ton activité UGC</title>
+<meta name="description" content="CREATORS PARTNERS, par Yanis & Lola Partners : le réseau des créateurs UGC qui veulent développer leur propre activité marketing avec les restaurants. Acquisition, collaborations, récurrence et réseau de prestataires.">
+<meta property="og:title" content="CREATORS PARTNERS | Développe ton activité UGC">
+<meta property="og:description" content="Des restaurants prêts à collaborer. Une activité qui ne s'arrête pas après chaque tournage.">
+<meta name="theme-color" content="#06C167">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+/* Layout : rythme asymétrique 7/5, alternance blanc / gris clair / sombre, une section sombre « infrastructure » et un final vert profond. */
+:root{
+  --white:#FFFFFF;
+  --green:#06C167;
+  --green-ink:#047A42;      /* vert texte accessible sur blanc */
+  --green-deep:#03311C;     /* vert nuit (reprend le fond du logo) */
+  --ink:#111827;
+  --ink-2:#4B5563;
+  --ink-3:#6B7280;
+  --mist:#F6F8F7;
+  --line:#E3E8E5;
+  --night:#0B1410;
+  --font-body:"Manrope","Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --font-mark:"Anton","Impact","Arial Narrow Bold",sans-serif;
+  --radius:14px;
+  --radius-sm:10px;
+  --shadow:0 1px 2px rgba(17,24,39,.04),0 8px 24px -12px rgba(17,24,39,.10);
+  --maxw:1180px;
+  color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{background:var(--white);color:var(--ink);font-family:var(--font-body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.025em;text-wrap:balance;font-weight:800}
+p{margin:0}
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:24px}
+@media (max-width:480px){.wrap{padding-inline:18px}}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+.skip{position:absolute;left:12px;top:-60px;background:var(--ink);color:#fff;padding:10px 14px;border-radius:8px;z-index:100;text-decoration:none;font-weight:700}
+.skip:focus{top:12px}
+:focus-visible{outline:3px solid var(--green);outline-offset:3px;border-radius:6px}
+.hl{color:var(--green-ink)}
+.on-dark .hl{color:var(--green)}
+
+/* ---------- Boutons ---------- */
+.btn{--bg:var(--green);display:inline-flex;align-items:center;justify-content:center;gap:10px;font:inherit;font-weight:800;font-size:16px;line-height:1.2;letter-spacing:-.005em;border:0;cursor:pointer;text-decoration:none;color:#06140C;background:var(--bg);padding:16px 22px;border-radius:12px;transition:transform .2s ease,box-shadow .2s ease,background-color .2s ease;box-shadow:0 1px 0 rgba(255,255,255,.35) inset,0 10px 24px -12px rgba(6,193,103,.7)}
+.btn:hover{transform:translateY(-1px);background:#14D277;box-shadow:0 1px 0 rgba(255,255,255,.35) inset,0 14px 30px -12px rgba(6,193,103,.85)}
+.btn:active{transform:translateY(0)}
+.btn svg{width:18px;height:18px;flex:none;transition:transform .2s ease}
+.btn:hover svg{transform:translateX(3px)}
+.btn-sm{padding:11px 16px;font-size:14.5px;border-radius:10px}
+.btn-lg{padding:20px 28px;font-size:18px;border-radius:14px}
+.btn-ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--line)}
+.btn-ghost:hover{background:var(--mist);box-shadow:inset 0 0 0 1.5px #cfd8d3}
+.btn-dark{background:var(--ink);color:#fff;box-shadow:none}
+.btn-dark:hover{background:#1f2937;box-shadow:none}
+
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--green-ink)}
+.eyebrow::before{content:"";width:22px;height:2px;background:var(--green);border-radius:2px}
+.on-dark .eyebrow{color:var(--green)}
+.lead{font-size:19px;color:var(--ink-2);max-width:60ch}
+.on-dark .lead{color:#B7C4BD}
+.note{font-size:13.5px;color:var(--ink-3);display:flex;gap:8px;align-items:flex-start}
+.note svg{width:16px;height:16px;flex:none;margin-top:3px;color:var(--green-ink)}
+
+/* ---------- Header ---------- */
+.site-header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(255,255,255,.92);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;height:72px}
+/* LOGO — logo typographique temporaire. Pour utiliser le fichier logo officiel : remplacer le contenu de .brand par <img src="logo.svg" alt="CREATORS PARTNERS" height="36"> */
+.brand{display:inline-flex;align-items:baseline;gap:7px;text-decoration:none;font-family:var(--font-mark);font-size:24px;line-height:1;letter-spacing:.01em;color:var(--ink);white-space:nowrap}
+.brand b{font-weight:400;color:var(--green)}
+.brand sup{font-family:var(--font-body);font-size:9px;font-weight:800;color:var(--ink-3);transform:translateY(-10px)}
+.nav-links{display:flex;align-items:center;gap:6px;list-style:none;margin:0;padding:0}
+.nav-links a{display:block;text-decoration:none;font-weight:600;font-size:15px;color:var(--ink-2);padding:8px 14px;border-radius:8px;transition:color .2s,background .2s}
+.nav-links a:hover{color:var(--ink);background:var(--mist)}
+.nav-right{display:flex;align-items:center;gap:10px}
+.menu-btn{display:none;width:44px;height:44px;border-radius:10px;border:1.5px solid var(--line);background:#fff;cursor:pointer;align-items:center;justify-content:center;color:var(--ink)}
+.menu-btn svg{width:22px;height:22px}
+.mobile-menu{display:none}
+@media (max-width:420px){.nav{gap:10px}.brand{font-size:20px;min-width:0}}
+@media (max-width:900px){
+  .nav-links,.nav-right .btn{display:none}
+  .menu-btn{display:inline-flex}
+  .mobile-menu{display:block;border-top:1px solid var(--line);background:#fff;padding:12px 0 20px}
+  .mobile-menu[hidden]{display:none!important}
+  .mobile-menu ul{list-style:none;margin:0 0 14px;padding:0}
+  .mobile-menu a{display:block;padding:14px 4px;font-weight:700;font-size:18px;text-decoration:none;border-bottom:1px solid var(--line)}
+  .mobile-menu .btn{width:100%}
+}
+
+/* ---------- Sections ---------- */
+section{padding-block:112px}
+@media (max-width:760px){section{padding-block:76px}}
+.bg-mist{background:var(--mist)}
+.bg-night{background:var(--night);color:#EAF1ED}
+.sec-head{display:grid;gap:20px;max-width:760px}
+.sec-head h2{font-size:clamp(32px,4.6vw,54px)}
+.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:72px;align-items:center}
+.split.rev > :first-child{order:2}
+@media (max-width:960px){.split{grid-template-columns:1fr;gap:48px}.split.rev > :first-child{order:0}}
+.copy{display:grid;gap:22px;min-width:0}
+.copy h2{font-size:clamp(30px,4vw,48px)}
+.copy p{color:var(--ink-2);font-size:18px;max-width:54ch}
+.copy .punch{color:var(--ink);font-weight:700;font-size:19px;padding-left:16px;border-left:3px solid var(--green)}
+.copy .cta-row{margin-top:8px}
+
+/* ---------- Reveal (état visible au repos, animation légère) ---------- */
+.reveal{transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.js .reveal.pre{opacity:.3;transform:translateY(22px)}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal,.js .reveal.pre{transition:none;opacity:1;transform:none}
+  *,*::before,*::after{animation:none!important}
+}
+
+/* ---------- Hero ---------- */
+.hero{padding-block:72px 96px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background-image:radial-gradient(circle at 1px 1px,#DCE4E0 1px,transparent 0);background-size:26px 26px;mask-image:radial-gradient(ellipse 60% 70% at 80% 40%,#000 20%,transparent 75%);-webkit-mask-image:radial-gradient(ellipse 60% 70% at 80% 40%,#000 20%,transparent 75%);pointer-events:none}
+.hero-grid{position:relative;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:56px;align-items:center}
+@media (max-width:1020px){.hero-grid{grid-template-columns:1fr;gap:56px}}
+.hero-copy{display:grid;gap:28px;min-width:0}
+.hero h1{position:relative;z-index:0;font-size:clamp(40px,6.3vw,80px);line-height:1;letter-spacing:-.04em}
+.hero h1 .l2{display:block;margin-top:.18em;color:var(--ink-3);font-size:.62em;line-height:1.08;letter-spacing:-.03em}
+.hero h1 .l2 .hl{color:var(--ink)}
+.hero h1 .mark{position:relative;white-space:nowrap;color:var(--ink)}
+.hero h1 .mark::after{content:"";position:absolute;left:-.04em;right:-.04em;bottom:.04em;height:.22em;background:var(--green);opacity:.85;z-index:-1;border-radius:3px;transform-origin:left;animation:sweep 1s .4s cubic-bezier(.2,.7,.2,1) both}
+.hero h1 .accent{color:var(--green-ink)}
+@keyframes sweep{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.hero .lead{font-size:clamp(17px,1.6vw,20px)}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.reassure{display:inline-flex;align-items:center;gap:10px;font-size:14.5px;font-weight:600;color:var(--ink-2)}
+.reassure i{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px rgba(6,193,103,.18);flex:none}
+
+/* Parcours hero */
+.journey{position:relative;background:#fff;border:1px solid var(--line);border-radius:20px;padding:26px;box-shadow:var(--shadow);min-width:0}
+.journey-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;gap:10px}
+.journey-top span{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.journey-top em{font-style:normal;font-size:12px;font-weight:700;color:var(--green-ink);background:#E7F8EF;padding:4px 10px;border-radius:999px}
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:0;position:relative}
+.step{position:relative;display:grid;grid-template-columns:52px 1fr;gap:16px;align-items:center;padding:12px 0}
+.step .dot{position:relative;z-index:1;width:52px;height:52px;border-radius:14px;display:grid;place-items:center;background:var(--mist);border:1px solid var(--line);color:var(--ink)}
+.step .dot svg{width:24px;height:24px}
+.step:not(:last-child)::after{content:"";position:absolute;left:25px;top:64px;height:calc(100% - 52px);width:2px;background:repeating-linear-gradient(to bottom,var(--line) 0 5px,transparent 5px 10px)}
+.step h3{font-size:17px;letter-spacing:-.01em}
+.step p{font-size:14px;color:var(--ink-3);line-height:1.45}
+.step.s2{margin-left:18px}.step.s3{margin-left:36px}.step.s4{margin-left:54px}
+.step.s4 .dot{background:var(--green);border-color:var(--green);color:#06140C}
+.step.s4 h3{color:var(--green-ink)}
+.loop{margin-top:16px;display:flex;align-items:center;gap:12px;padding:14px 16px;background:var(--green-deep);color:#D8F5E5;border-radius:12px;font-size:14px;font-weight:600}
+.loop svg{width:22px;height:22px;flex:none;color:var(--green);animation:spin 6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.pulse{animation:pulse 2.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(6,193,103,.45)}50%{box-shadow:0 0 0 10px rgba(6,193,103,0)}}
+@media (max-width:420px){.step.s2,.step.s3,.step.s4{margin-left:0}.journey{padding:20px}}
+
+
+/* ---------- Crédibilité ---------- */
+.cred-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);gap:64px;align-items:start}
+@media (max-width:960px){.cred-grid{grid-template-columns:1fr;gap:40px}}
+.cred-cards{display:grid;gap:14px}
+.cred{display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px;transition:border-color .25s,transform .25s}
+.cred:hover{border-color:#bfe9d3;transform:translateX(4px)}
+.cred .ic{width:48px;height:48px;border-radius:12px;background:#E7F8EF;color:var(--green-ink);display:grid;place-items:center}
+.cred .ic svg{width:24px;height:24px}
+.cred h3{font-size:19px;letter-spacing:-.015em}
+.cred p{font-size:15px;color:var(--ink-3);margin-top:4px}
+.cred .tag{font-size:12px;font-weight:800;color:var(--ink-3);letter-spacing:.06em}
+@media (max-width:520px){.cred{grid-template-columns:auto 1fr}.cred .tag{display:none}}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:14px}
+.stat{position:relative;overflow:hidden;background:var(--green-deep);color:#fff;border-radius:18px;padding:26px 26px 24px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px 26px;align-items:center;box-shadow:0 24px 50px -28px rgba(3,49,28,.8)}
+.stat::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 60% 120% at 0% 100%,rgba(6,193,103,.35),transparent 60%),radial-gradient(circle at 1px 1px,rgba(255,255,255,.06) 1px,transparent 0);background-size:auto,22px 22px;pointer-events:none}
+.stat > *{position:relative}
+.stat strong{grid-row:span 3;font-family:var(--font-mark);font-weight:400;font-size:clamp(64px,8vw,92px);line-height:.9;letter-spacing:.005em;color:var(--green);white-space:nowrap;font-variant-numeric:tabular-nums}
+.stat .stag{display:inline-flex;align-items:center;gap:7px;justify-self:start;font-size:11.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--green);background:rgba(6,193,103,.14);border:1px solid rgba(6,193,103,.35);padding:4px 10px;border-radius:999px}
+.stat .stag i{width:6px;height:6px;border-radius:50%;background:var(--green)}
+.stat span{font-size:17px;font-weight:700;line-height:1.35;color:#fff;max-width:30ch}
+.stat small{font-size:13px;color:#A9C7B7;line-height:1.4}
+.stat small a{color:#fff;font-weight:700;text-underline-offset:3px}
+.stat small a:hover{color:var(--green)}
+@media (max-width:520px){.stat{grid-template-columns:1fr}.stat strong{grid-row:auto}}
+
+/* ---------- Infrastructure ---------- */
+.infra-head{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:56px;align-items:end;margin-bottom:64px}
+.infra-head h2{font-size:clamp(32px,4.6vw,56px);color:#fff}
+.infra-head .txt{display:grid;gap:16px}
+.infra-head .txt p{color:#B7C4BD;font-size:18px}
+.infra-head .txt p:last-child{color:#fff;font-weight:700}
+@media (max-width:960px){.infra-head{grid-template-columns:1fr;gap:24px}}
+.orbit-card{border:1px solid #1E2C25;border-radius:24px;background:radial-gradient(ellipse at center,#0F2219 0%,var(--night) 70%);padding:36px 24px 28px}
+.orbit-title{text-align:center;font-size:13px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#8FA399;margin-bottom:8px}
+.orbit{position:relative;width:100%;max-width:640px;aspect-ratio:1/1;margin-inline:auto}
+.orbit svg.lines{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.orbit .ring{fill:none;stroke:#1E3328;stroke-width:.3}
+.orbit .ray{stroke:#2A4A39;stroke-width:.35;stroke-dasharray:1.2 1.2}
+.orbit .flow{stroke:var(--green);stroke-width:.5;stroke-dasharray:2 30;stroke-linecap:round;animation:flow 3.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-32}}
+.core{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:34%;aspect-ratio:1/1;border-radius:50%;background:var(--green);color:#03170D;display:grid;place-items:center;text-align:center;padding:10px;box-shadow:0 0 0 10px rgba(6,193,103,.10),0 0 0 22px rgba(6,193,103,.05),0 20px 60px -10px rgba(6,193,103,.5)}
+.core strong{font-family:var(--font-mark);font-weight:400;font-size:clamp(15px,2.3vw,24px);line-height:1.05;letter-spacing:.01em}
+.core small{display:block;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-top:6px;opacity:.75}
+.node{position:absolute;transform:translate(-50%,-50%);width:28%;min-width:120px;background:#111D17;border:1px solid #24382D;border-radius:14px;padding:14px;display:grid;gap:8px;transition:border-color .25s,background .25s,transform .25s}
+.node:hover{border-color:var(--green);background:#13241B;transform:translate(-50%,-52%)}
+.node .ic{width:34px;height:34px;border-radius:9px;background:rgba(6,193,103,.14);color:var(--green);display:grid;place-items:center}
+.node .ic svg{width:18px;height:18px}
+.node h3{font-size:15px;color:#fff;letter-spacing:-.01em}
+.node p{font-size:12.5px;line-height:1.4;color:#93A69C}
+.n1{left:50%;top:9%}.n2{left:84%;top:30%}.n3{left:84%;top:70%}.n4{left:50%;top:91%}.n5{left:16%;top:70%}.n6{left:16%;top:30%}
+@media (max-width:720px){
+  .orbit{aspect-ratio:auto;max-width:none;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .orbit svg.lines{display:none}
+  .core{position:relative;left:auto;top:auto;transform:none;grid-column:1/-1;width:auto;aspect-ratio:auto;border-radius:16px;padding:22px;margin-bottom:6px;box-shadow:0 16px 40px -16px rgba(6,193,103,.6)}
+  .node{position:relative;left:auto!important;top:auto!important;transform:none;width:auto;min-width:0}
+  .node:hover{transform:none}
+}
+@media (max-width:380px){.orbit{grid-template-columns:1fr}}
+
+/* ---------- Acquisition ---------- */
+.funnel{position:relative;display:grid;gap:14px;min-width:0}
+.panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:var(--shadow)}
+.panel-label{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:16px}
+.panel-label em{font-style:normal;letter-spacing:.04em;text-transform:none;font-weight:700;color:var(--ink-3);background:var(--mist);padding:3px 9px;border-radius:999px;border:1px solid var(--line)}
+.acq{display:grid;grid-template-columns:1.05fr auto 1fr auto 1fr;gap:10px;align-items:center}
+@media (max-width:620px){.acq{grid-template-columns:1fr}.acq .arr{transform:rotate(90deg);justify-self:center}}
+.ad{border-radius:14px;background:var(--ink);color:#fff;padding:12px;display:grid;gap:10px}
+.ad .frame{aspect-ratio:9/12;border-radius:10px;background:linear-gradient(160deg,#1F2A24,#0D1511);position:relative;display:grid;place-items:center;overflow:hidden}
+.ad .frame svg{width:44%;height:auto;color:#3C5A4A}
+.ad .rec{position:absolute;top:8px;left:8px;display:flex;align-items:center;gap:6px;font-size:10px;font-weight:800;letter-spacing:.08em;color:#fff}
+.ad .rec i{width:7px;height:7px;border-radius:50%;background:var(--green)}
+.ad .cap{font-size:12px;font-weight:700;line-height:1.3}
+.ad .bar{height:6px;border-radius:4px;background:#22302A;overflow:hidden}
+.ad .bar i{display:block;height:100%;width:62%;background:var(--green);border-radius:4px}
+.arr{color:var(--green-ink);display:grid;place-items:center}
+.arr svg{width:22px;height:22px}
+.mini{border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:10px;background:#fff;min-width:0}
+.mini .ic{width:38px;height:38px;border-radius:10px;background:var(--mist);display:grid;place-items:center;color:var(--ink)}
+.mini .ic svg{width:20px;height:20px}
+.mini h3{font-size:15px;letter-spacing:-.01em}
+.mini p{font-size:13px;color:var(--ink-3);line-height:1.4}
+.mini.go{background:var(--green-deep);border-color:var(--green-deep);color:#fff}
+.mini.go .ic{background:var(--green);color:#03170D}
+.mini.go p{color:#A9C7B7}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.chip{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;padding:8px 12px;border-radius:999px;background:var(--mist);border:1px solid var(--line);color:var(--ink-2)}
+.chip svg{width:15px;height:15px;color:var(--green-ink)}
+.chip.off{color:var(--ink-3);text-decoration:line-through;text-decoration-color:#C3CCC7}
+.chip.off svg{color:#B4BDB8}
+
+/* ---------- Collaborations ---------- */
+.collab{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;min-width:0}
+@media (max-width:460px){.collab{grid-template-columns:1fr}}
+.cstep{position:relative;background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;display:grid;gap:12px;align-content:start;overflow:hidden;transition:transform .25s,box-shadow .25s}
+.cstep:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.cstep .num{font-family:var(--font-mark);font-size:44px;line-height:.9;color:#E6ECE9}
+.cstep h3{font-size:18px;letter-spacing:-.015em}
+.cstep p{font-size:14.5px;color:var(--ink-3);line-height:1.5}
+.cstep .meter{height:6px;border-radius:4px;background:var(--mist);overflow:hidden}
+.cstep .meter i{display:block;height:100%;background:var(--green);border-radius:4px}
+.cstep.win{background:var(--ink);border-color:var(--ink);color:#fff}
+.cstep.win .num{color:#25303F}
+.cstep.win p{color:#A7B0BD}
+.cstep.win .meter{background:#25303F}
+.cstep:nth-child(2),.cstep:nth-child(4){transform:translateY(28px)}
+.cstep:nth-child(2):hover,.cstep:nth-child(4):hover{transform:translateY(25px)}
+@media (max-width:460px){.cstep:nth-child(2),.cstep:nth-child(4){transform:none}.cstep:nth-child(2):hover,.cstep:nth-child(4):hover{transform:translateY(-3px)}}
+.collab-wrap{padding-bottom:28px}
+
+/* ---------- Récurrence ---------- */
+.finance{position:relative;min-width:0}
+.fin{background:#fff;border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:0 30px 60px -30px rgba(17,24,39,.22)}
+.fin-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+.fin-top .lbl{display:grid;gap:4px}
+.fin-top .lbl span{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.badge-warn{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:800;color:#8A5A00;background:#FFF5DB;border:1px solid #F5DFA5;padding:5px 10px;border-radius:999px;white-space:nowrap}
+.badge-warn svg{width:14px;height:14px}
+.total{font-family:var(--font-mark);font-weight:400;font-size:clamp(56px,8vw,84px);line-height:1;letter-spacing:.005em;margin:18px 0 6px;color:var(--ink);font-variant-numeric:tabular-nums}
+.total small{font-family:var(--font-body);font-size:16px;font-weight:700;color:var(--ink-3);letter-spacing:0;margin-left:6px}
+.stack{display:flex;height:14px;border-radius:8px;overflow:hidden;gap:3px;margin:20px 0 22px}
+.stack i{display:block;height:100%}
+.stack .a{background:var(--green);flex:300}.stack .b{background:#5ED89E;flex:200}.stack .c{background:var(--green-deep);flex:250}
+.rows{list-style:none;margin:0;padding:0;display:grid}
+.rows li{display:grid;grid-template-columns:14px 1fr auto;gap:12px;align-items:center;padding:14px 0;border-top:1px dashed var(--line)}
+.rows li:first-child{border-top:0}
+.rows .sw{width:12px;height:12px;border-radius:4px}
+.rows .lab{font-weight:600;color:var(--ink-2);font-size:15.5px}
+.rows .val{font-weight:800;font-variant-numeric:tabular-nums;font-size:17px}
+.fin-foot{margin-top:14px;padding-top:16px;border-top:1px solid var(--line);font-size:13.5px;color:var(--ink-3);font-weight:600}
+.float-tag{position:absolute;right:-12px;top:-18px;background:var(--ink);color:#fff;font-size:13px;font-weight:700;padding:10px 14px;border-radius:12px;display:flex;gap:8px;align-items:center;box-shadow:var(--shadow)}
+.float-tag svg{width:16px;height:16px;color:var(--green)}
+@media (max-width:520px){.float-tag{position:static;margin-bottom:12px;display:inline-flex}}
+.offer-list{display:flex;flex-wrap:wrap;gap:8px}
+
+/* ---------- Prestataires ---------- */
+.net{position:relative;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:0;align-items:center;min-width:0}
+.partner{position:relative;z-index:1;background:var(--ink);color:#fff;border-radius:18px;padding:24px;display:grid;gap:12px}
+.partner .av{width:52px;height:52px;border-radius:50%;background:var(--green);display:grid;place-items:center;color:#03170D}
+.partner .av svg{width:26px;height:26px}
+.partner h3{font-size:20px}
+.partner p{font-size:13.5px;color:#A7B0BD;line-height:1.45}
+.partner .margin{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--green);padding-top:10px;border-top:1px solid #25303F}
+.services{display:grid;gap:10px;padding-left:44px;position:relative}
+.services::before{content:"";position:absolute;left:0;top:12%;bottom:12%;width:44px;border:2px solid var(--line);border-left:0;border-radius:0 14px 14px 0;display:none}
+.svc{position:relative;display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;transition:border-color .25s,transform .25s}
+.svc::before{content:"";position:absolute;left:-44px;top:50%;width:44px;height:2px;background:repeating-linear-gradient(90deg,#BFD9CB 0 5px,transparent 5px 9px)}
+.svc::after{content:"";position:absolute;left:-5px;top:calc(50% - 4px);width:8px;height:8px;border-radius:50%;background:var(--green)}
+.svc:hover{border-color:#bfe9d3;transform:translateX(4px)}
+.svc .ic{width:44px;height:44px;border-radius:12px;background:#E7F8EF;color:var(--green-ink);display:grid;place-items:center}
+.svc .ic svg{width:22px;height:22px}
+.svc h3{font-size:16px;letter-spacing:-.01em}
+.svc p{font-size:13.5px;color:var(--ink-3);line-height:1.4}
+@media (max-width:620px){
+  .net{grid-template-columns:1fr;gap:28px}
+  .services{padding-left:24px;border-left:2px dashed #BFD9CB;margin-left:26px}
+  .svc::before{left:-26px;width:24px}
+  .svc::after{display:none}
+}
+
+/* ---------- Dashboard ---------- */
+.dash-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:end;margin-bottom:48px}
+@media (max-width:900px){.dash-head{grid-template-columns:1fr;gap:18px}}
+.app{border-radius:20px;background:#fff;border:1px solid var(--line);box-shadow:0 40px 80px -40px rgba(17,24,39,.28);overflow:hidden}
+.app-bar{display:flex;align-items:center;gap:14px;padding:12px 16px;border-bottom:1px solid var(--line);background:#FBFCFB}
+.app-bar .dots{display:flex;gap:6px}
+.app-bar .dots i{width:11px;height:11px;border-radius:50%;background:#E1E6E3}
+.app-bar .url{flex:1;min-width:0;height:28px;border-radius:8px;background:var(--mist);border:1px solid var(--line);display:flex;align-items:center;padding:0 12px;font-size:12px;color:var(--ink-3);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fict{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:800;color:#8A5A00;background:#FFF5DB;border:1px solid #F5DFA5;padding:6px 11px;border-radius:999px;white-space:nowrap}
+.fict svg{width:14px;height:14px}
+.app-body{display:grid;grid-template-columns:200px minmax(0,1fr)}
+@media (max-width:820px){.app-body{grid-template-columns:1fr}.side{display:none}}
+.side{border-right:1px solid var(--line);padding:18px 12px;display:grid;align-content:start;gap:4px;background:#FBFCFB}
+.side .who{display:flex;gap:10px;align-items:center;padding:6px 8px 16px;font-weight:800;font-size:14px}
+.side .who i{width:30px;height:30px;border-radius:8px;background:var(--ink);display:grid;place-items:center;color:var(--green);font-style:normal;font-family:var(--font-mark);font-size:14px}
+.side span{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:8px;font-size:13.5px;font-weight:600;color:var(--ink-3)}
+.side span svg{width:16px;height:16px}
+.side span.act{background:#E7F8EF;color:var(--green-ink)}
+.main{padding:24px;display:grid;gap:18px;min-width:0}
+.main-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.main-top h3{font-size:20px;letter-spacing:-.02em}
+.main-top small{font-size:13px;color:var(--ink-3);font-weight:600}
+.kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:560px){.kpis{grid-template-columns:1fr}}
+.kpi{border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;gap:6px}
+.kpi span{font-size:12.5px;font-weight:700;color:var(--ink-3);display:flex;align-items:center;gap:8px}
+.kpi span svg{width:15px;height:15px;color:var(--green-ink)}
+.kpi strong{font-size:32px;line-height:1.05;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.kpi.hi{background:var(--ink);border-color:var(--ink);color:#fff}
+.kpi.hi span{color:#A7B0BD}
+.kpi.hi span svg{color:var(--green)}
+.dash-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:12px}
+@media (max-width:820px){.dash-grid{grid-template-columns:1fr}}
+.chart,.pipe{border:1px solid var(--line);border-radius:14px;padding:16px;min-width:0}
+.chart-h{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px}
+.chart-h b{font-size:14px}
+.chart-h small{font-size:11.5px;color:var(--ink-3);font-weight:700}
+.chart svg{width:100%;height:auto;display:block}
+.chart text{font-family:var(--font-body);font-size:10px;fill:#8A948F;font-weight:600}
+.pipe ul{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:8px}
+.pipe li{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center;padding:10px 12px;border-radius:10px;background:var(--mist);font-size:13px;font-weight:600}
+.pill{font-size:11px;font-weight:800;padding:3px 8px;border-radius:999px;white-space:nowrap}
+.pill.p1{background:#E8EEF9;color:#2F4B8A}.pill.p2{background:#FFF5DB;color:#8A5A00}.pill.p3{background:#E7F8EF;color:var(--green-ink)}
+.dash-note{margin-top:18px;text-align:center;font-size:13.5px;color:var(--ink-3);font-weight:600}
+
+/* ---------- Premiers partners ---------- */
+.pilot-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:64px;align-items:start}
+@media (max-width:960px){.pilot-grid{grid-template-columns:1fr;gap:44px}}
+.pilot-copy{display:grid;gap:22px}
+.pilot-copy h2{font-size:clamp(30px,4.2vw,50px)}
+.pilot-copy p{color:var(--ink-2);font-size:18px;max-width:56ch}
+.pilot-copy p.strong{color:var(--ink);font-weight:700}
+.casebook{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden}
+.casebook-h{padding:24px 24px 20px;border-bottom:1px solid var(--line);display:grid;gap:10px}
+.casebook-h h3{font-size:24px;letter-spacing:-.02em}
+.status{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:800;color:var(--green-ink)}
+.status i{width:8px;height:8px;border-radius:50%;background:var(--green)}
+
+
+/* ---------- Index des preuves ---------- */
+.legend{display:flex;gap:6px;flex-wrap:wrap}
+.t{display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:4px 9px;border-radius:999px;white-space:nowrap;line-height:1.2}
+.t.t-real{background:#E7F8EF;color:var(--green-ink)}
+.t.t-hyp{background:#FFF5DB;color:#8A5A00}
+.t.t-fict{background:var(--mist);color:var(--ink-3);border:1px solid var(--line)}
+.plist li{display:block;padding:0;border:0}
+.plist{list-style:none;margin:0;padding:8px 12px 12px;display:grid}
+.plist a{display:grid;grid-template-columns:104px minmax(0,1fr) 20px;gap:14px;align-items:start;padding:16px 12px;border-radius:12px;text-decoration:none;border-top:1px solid var(--line);transition:background .2s}
+.plist li:first-child a{border-top:0}
+.plist a:hover{background:var(--mist)}
+.plist .t{justify-self:start;margin-top:2px}
+.plist h4{margin:0;font-size:16px;letter-spacing:-.01em;color:var(--ink)}
+.plist p{font-size:14px;color:var(--ink-3);line-height:1.45;margin-top:3px}
+.plist .go{width:18px;height:18px;color:var(--ink-3);margin-top:3px;transition:transform .2s,color .2s}
+.plist a:hover .go{color:var(--green-ink);transform:translate(2px,2px)}
+@media (max-width:480px){.plist a{grid-template-columns:minmax(0,1fr) 18px}.plist .t{grid-column:1/-1}.plist .go{grid-column:2;grid-row:2}}
+
+/* ---------- CTA final ---------- */
+.final{position:relative;overflow:hidden;background:var(--green-deep);color:#fff;padding-block:120px}
+.final::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 70% 90% at 50% 120%,rgba(6,193,103,.45),transparent 60%),radial-gradient(circle at 1px 1px,rgba(255,255,255,.07) 1px,transparent 0);background-size:auto,28px 28px;pointer-events:none}
+.final .wrap{position:relative;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,.7fr);gap:56px;align-items:center}
+@media (max-width:900px){.final .wrap{grid-template-columns:1fr}.final .logo-tile{order:-1;max-width:160px}}
+.final h2{font-size:clamp(32px,5vw,62px);line-height:1.04;color:#fff}
+.final h2 .muted{color:#7FB89A}
+.final-copy{display:grid;gap:26px}
+.final-copy p{font-size:19px;color:#C7E3D3;max-width:56ch}
+.final-copy .reassure{color:#C7E3D3}
+.final-copy .reassure i{box-shadow:0 0 0 4px rgba(6,193,103,.28)}
+/* LOGO officiel (fichier joint) intégré en data URI ; remplacer src par l'URL du logo hébergé si besoin. */
+.logo-tile{border-radius:22px;overflow:hidden;box-shadow:0 30px 60px -20px rgba(0,0,0,.5);border:1px solid rgba(255,255,255,.08);transform:rotate(3deg);transition:transform .4s}
+.logo-tile:hover{transform:rotate(0)}
+.logo-tile img{width:100%;height:auto}
+
+/* ---------- Photo fondateurs ---------- */
+/* PHOTO : remplacer media/yanis-lola.jpg pour changer la photo. */
+.founders{position:relative;margin:28px 0 0;border-radius:18px;overflow:hidden;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}
+.founders img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:50% 30%}
+.founders figcaption{position:absolute;left:14px;bottom:14px;right:14px;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-radius:12px;padding:12px 14px}
+.founders figcaption strong{font-size:16px;letter-spacing:-.01em}
+.founders figcaption span{font-size:12.5px;font-weight:700;color:var(--green-ink)}
+
+/* ---------- Réalisations vidéo ---------- */
+.real{margin-top:80px;display:grid;gap:28px}
+.real-head{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap}
+.real-head h3{font-size:clamp(24px,3vw,34px);letter-spacing:-.025em;margin-top:12px}
+.real-head p{font-size:15px;color:var(--ink-3);max-width:40ch}
+.reels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media (max-width:760px){.reels{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:72%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}.reel{scroll-snap-align:start}}
+.reel{margin:0;display:grid;gap:12px;min-width:0}
+.reel video{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:16px;background:var(--ink);display:block}
+.reel figcaption{display:grid;gap:2px}
+.reel figcaption small{font-size:11.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--green-ink)}
+.reel figcaption strong{font-size:16px;letter-spacing:-.01em}
+
+/* ---------- Preuves acquisition ---------- */
+.proof{margin-top:88px;display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.6fr);gap:40px;align-items:start}
+@media (max-width:960px){.proof{grid-template-columns:1fr}}
+.proof-col{display:grid;gap:16px;min-width:0}
+.proof-col h3{font-size:22px;letter-spacing:-.02em}
+.proof-col > p{font-size:15px;color:var(--ink-2)}
+.shot{margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);background:#1B2430;box-shadow:var(--shadow)}
+.shot img{width:100%;height:auto}
+.kpi-real{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.kpi-real div{border:1px solid var(--line);border-radius:12px;padding:12px;background:var(--mist)}
+.kpi-real strong{display:block;font-size:22px;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.kpi-real span{font-size:12px;color:var(--ink-3);font-weight:600;line-height:1.3;display:block}
+.phones{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media (max-width:620px){.phones{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:70%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}.phones .shot{scroll-snap-align:start}}
+.phones .shot{background:#000;border-color:#000;border-radius:22px}
+.real-tag{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:800;color:var(--green-ink);background:#E7F8EF;padding:5px 11px;border-radius:999px;justify-self:start}
+.real-tag i{width:7px;height:7px;border-radius:50%;background:var(--green)}
+
+
+
+
+/* ---------- Comparatif ---------- */
+.compare-sec{padding-block:96px;border-top:1px solid var(--line)}
+@media (max-width:760px){.compare-sec{padding-block:68px}}
+.compare-sec .sec-head{max-width:860px}
+.compare-sec .sec-head h2{font-size:clamp(28px,4vw,46px)}
+.cmp{margin-top:48px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.08fr);gap:18px;align-items:stretch}
+.cmp-card{border-radius:20px;padding:28px;display:grid;gap:20px;align-content:start;min-width:0}
+.cmp-card.old{background:var(--mist);border:1px solid var(--line);color:var(--ink-2)}
+.cmp-card.new{background:var(--green-deep);color:#fff;box-shadow:0 30px 60px -30px rgba(3,49,28,.7);position:relative;overflow:hidden}
+.cmp-card.new::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 70% 80% at 100% 0%,rgba(6,193,103,.28),transparent 60%);pointer-events:none}
+.cmp-card > *{position:relative}
+.cmp-top{display:flex;gap:14px;align-items:center}
+.cmp-ic{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;flex:none}
+.cmp-ic svg{width:22px;height:22px}
+.old .cmp-ic{background:#fff;border:1px solid var(--line);color:var(--ink-3)}
+.new .cmp-ic{background:var(--green);color:#03170D}
+.cmp-top small{display:block;font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.old .cmp-top small{color:var(--ink-3)}
+.new .cmp-top small{color:var(--green)}
+.cmp-top h3{font-size:21px;letter-spacing:-.02em}
+.old .cmp-top h3{color:var(--ink-2)}
+.cmp ul{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.cmp li{display:grid;grid-template-columns:22px 1fr;gap:12px;align-items:start;padding:13px 0;border-top:1px solid var(--line);font-size:15.5px;line-height:1.45;font-weight:600}
+.new li{border-top-color:rgba(255,255,255,.1)}
+.cmp li:first-child{border-top:0}
+.cmp li i{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;margin-top:1px}
+.old li i{border:1.5px solid #C9D2CD;position:relative}
+.old li i::after{content:"";width:8px;height:1.5px;background:#A3AEA8;border-radius:2px}
+.new li i{background:var(--green);color:#03170D}
+.new li i svg{width:12px;height:12px}
+.cmp-foot{display:flex;gap:10px;align-items:center;font-size:14px;font-weight:700;padding:12px 14px;border-radius:12px}
+.old .cmp-foot{background:#fff;border:1px dashed #CFD8D3;color:var(--ink-3)}
+.new .cmp-foot{background:rgba(6,193,103,.14);color:#D8F5E5}
+.loop-ic{display:grid;place-items:center;flex:none}
+.loop-ic svg{width:18px;height:18px}
+.new .loop-ic{color:var(--green)}
+.cmp-arrow{align-self:center;width:52px;height:52px;border-radius:50%;background:#fff;border:1px solid var(--line);display:grid;place-items:center;color:var(--green-ink);box-shadow:var(--shadow)}
+.cmp-arrow svg{width:22px;height:22px}
+@media (max-width:860px){
+  .cmp{grid-template-columns:1fr;gap:0}
+  .cmp-arrow{justify-self:center;transform:rotate(90deg);margin:-14px 0;position:relative;z-index:1}
+  .cmp-card{padding:22px}
+}
+
+/* ---------- Pourquoi maintenant ---------- */
+.why-sec{padding-block:96px}
+@media (max-width:760px){.why-sec{padding-block:68px}}
+.why-head{display:grid;gap:18px;max-width:900px}
+.why-head h2{font-size:clamp(28px,4vw,46px)}
+.eq{margin-top:44px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1.15fr);gap:14px;align-items:center}
+.eq-item{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;display:grid;gap:4px;min-width:0;height:100%;align-content:start;transition:transform .25s,box-shadow .25s}
+.eq-item:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.eq-ic{width:44px;height:44px;border-radius:12px;background:#E7F8EF;color:var(--green-ink);display:grid;place-items:center;margin-bottom:10px}
+.eq-ic svg{width:22px;height:22px}
+.eq-item small{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.eq-item strong{font-size:19px;line-height:1.3;letter-spacing:-.015em}
+.eq-item.res{background:var(--ink);border-color:var(--ink);color:#fff}
+.eq-item.res .eq-ic{background:var(--green);color:#03170D}
+.eq-item.res small{color:var(--green)}
+.eq-op{font-family:var(--font-mark);font-size:40px;line-height:1;color:var(--green-ink);text-align:center}
+.why-txt{margin-top:32px;display:grid;gap:14px;max-width:720px}
+.why-txt > p:first-child{font-size:18px;color:var(--ink-2)}
+@media (max-width:860px){
+  .eq{grid-template-columns:1fr;gap:6px}
+  .eq-op{font-size:30px}
+  .eq-item{display:grid;grid-template-columns:auto 1fr;column-gap:14px;align-items:center}
+  .eq-item .eq-ic{grid-row:span 2;margin:0}
+}
+
+/* ---------- Écosystème ---------- */
+.eco{margin-top:56px;display:grid;gap:28px}
+.eco-head{display:flex;justify-content:space-between;align-items:end;gap:12px 32px;flex-wrap:wrap}
+.eco-head h3{font-size:clamp(24px,3vw,34px);color:#fff;letter-spacing:-.025em}
+.eco-head p{font-size:16px;font-weight:700;color:var(--green)}
+.eco-grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:900px){.eco-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.eco-grid{grid-template-columns:1fr;gap:8px}}
+.eco-grid li{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start;padding:20px;border-radius:16px;background:#111D17;border:1px solid #24382D;transition:border-color .25s,background .25s,transform .25s}
+.eco-grid li:hover{border-color:var(--green);background:#13241B;transform:translateY(-2px)}
+.eco-grid .ic{width:42px;height:42px;border-radius:11px;background:rgba(6,193,103,.14);color:var(--green);display:grid;place-items:center}
+.eco-grid .ic svg{width:21px;height:21px}
+.eco-grid h4{margin:0;font-size:16px;color:#fff;letter-spacing:-.01em;line-height:1.3}
+.eco-grid p{font-size:14px;color:#93A69C;line-height:1.45;margin-top:4px}
+@media (max-width:560px){.eco-grid li{padding:16px;align-items:center}}
+
+/* ---------- Simulateur ---------- */
+.sim{margin-top:88px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:0;border-radius:24px;overflow:hidden;background:var(--ink);color:#fff;box-shadow:0 40px 80px -40px rgba(17,24,39,.45)}
+@media (max-width:900px){.sim{grid-template-columns:1fr;margin-top:64px}}
+.sim-copy{padding:40px;display:grid;gap:18px;align-content:start}
+.sim-copy .eyebrow{color:var(--green)}
+.sim-title{font-size:clamp(24px,3vw,34px);letter-spacing:-.025em;line-height:1.12}
+.sim-copy > p{font-size:16px;color:#A7B0BD}
+.sim-ctrl{display:grid;gap:14px;margin-top:6px}
+.sim-ctrl label{font-size:15px;font-weight:700;color:#E5E9EF}
+.sim-ctrl output{display:inline-grid;place-items:center;min-width:34px;height:30px;padding:0 8px;margin-left:4px;border-radius:8px;background:var(--green);color:#03170D;font-weight:800;font-variant-numeric:tabular-nums}
+#simRange{-webkit-appearance:none;appearance:none;width:100%;height:8px;border-radius:8px;background:linear-gradient(90deg,var(--green) var(--p,22%),#2B3544 var(--p,22%));outline:none;margin:10px 0;cursor:pointer}
+#simRange::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:28px;height:28px;border-radius:50%;background:#fff;border:6px solid var(--green);box-shadow:0 4px 14px rgba(0,0,0,.4);transition:transform .15s}
+#simRange::-webkit-slider-thumb:hover{transform:scale(1.1)}
+#simRange::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:#fff;border:6px solid var(--green);box-shadow:0 4px 14px rgba(0,0,0,.4)}
+#simRange:focus-visible{outline:3px solid var(--green);outline-offset:6px}
+.sim-chips{display:flex;gap:8px;flex-wrap:wrap}
+.sim-chips button{font:inherit;font-size:14px;font-weight:800;min-width:52px;height:40px;padding:0 14px;border-radius:10px;border:1.5px solid #2B3544;background:transparent;color:#E5E9EF;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.sim-chips button:hover{border-color:var(--green)}
+.sim-chips button[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#03170D}
+.sim-out{padding:40px;background:#161E2B;display:grid;gap:20px;align-content:start;border-left:1px solid #222C3A}
+@media (max-width:900px){.sim-out{border-left:0;border-top:1px solid #222C3A}.sim-copy,.sim-out{padding:26px 22px}}
+.sim-badge{justify-self:start;display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:800;color:#F5D58A;background:rgba(245,213,138,.1);border:1px solid rgba(245,213,138,.3);padding:5px 10px;border-radius:999px}
+.sim-badge svg{width:14px;height:14px}
+.sim-figs{display:grid;grid-template-columns:1.2fr 1fr;gap:12px}
+.sim-figs div{display:grid;gap:4px}
+.sim-figs small{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#8C97A8}
+.sim-figs strong{font-family:var(--font-mark);font-weight:400;font-size:clamp(40px,6vw,64px);line-height:1;letter-spacing:.005em;color:var(--green);font-variant-numeric:tabular-nums;white-space:nowrap}
+.sim-figs div + div strong{color:#fff;font-size:clamp(30px,4.2vw,44px)}
+.sim-bars{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:6px;align-items:end;height:150px;padding-top:6px;border-bottom:1px solid #2B3544}
+.sim-bars i{display:block;border-radius:6px 6px 2px 2px;background:#253041;transition:background .3s,transform .3s;transform-origin:bottom}
+.sim-bars i.on{background:linear-gradient(180deg,#14D277,var(--green))}
+.sim-bars i.cur{box-shadow:0 0 0 2px #fff inset}
+.sim-axis{display:flex;justify-content:space-between;font-size:12px;font-weight:700;color:#8C97A8;margin-top:-10px}
+.sim-note{font-size:13px;color:#A7B0BD;font-weight:600}
+
+/* ---------- Conclusion ---------- */
+.sign{display:flex;align-items:center;gap:14px;margin-top:6px}
+.sign img{width:64px;height:64px;border-radius:50%;object-fit:cover;object-position:50% 25%;border:3px solid var(--green);flex:none}
+.sign strong{display:block;font-size:15px;color:#C7E3D3;font-weight:600}
+.sign span{display:block;font-family:var(--font-mark);font-size:26px;letter-spacing:.02em;color:#fff;line-height:1.1}
+
+/* ---------- Mentions légales ---------- */
+.legal-bar{background:var(--night);color:#93A69C;font-size:13px;padding-block:20px calc(20px + env(safe-area-inset-bottom,0px))}
+.legal-bar .wrap{display:flex;justify-content:space-between;align-items:center;gap:10px 24px;flex-wrap:wrap}
+.legal-bar strong{color:#fff;font-weight:800;letter-spacing:.02em}
+.legal-links{display:flex;align-items:center;gap:8px 18px;flex-wrap:wrap}
+.legal-link{font:inherit;font-weight:700;color:#E3EAE6;background:none;border:0;padding:4px 0;cursor:pointer;text-decoration:underline;text-underline-offset:3px;text-decoration-color:#3C5A4A}
+.legal-link:hover{color:var(--green);text-decoration-color:var(--green)}
+.legal-box{max-width:760px}
+.legal-text{padding:8px 24px 28px;font-size:15px;line-height:1.65;color:var(--ink-2)}
+.legal-text p{margin:0 0 10px;max-width:68ch}
+.legal-text h3{font-size:17px;color:var(--ink);letter-spacing:-.01em;margin:26px 0 10px;padding-top:18px;border-top:1px solid var(--line)}
+.legal-text ul{margin:0 0 12px;padding-left:20px;display:grid;gap:4px}
+.legal-text li::marker{color:var(--green-ink)}
+.legal-text a{color:var(--green-ink);font-weight:700}
+.legal-text strong{color:var(--ink)}
+.legal-sign{margin-top:28px;padding:18px;border-radius:12px;background:var(--mist);border:1px solid var(--line)}
+.legal-sign p{margin:8px 0 0}
+
+/* ---------- Fenêtre (modale) ---------- */
+.modal{position:fixed;inset:0;z-index:80;display:grid;place-items:center;padding:16px}
+.modal[hidden]{display:none!important}
+.modal-bg{position:absolute;inset:0;background:rgba(11,20,16,.6);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);animation:fade .25s ease}
+.modal-box{position:relative;width:100%;max-width:620px;max-height:calc(100dvh - 32px);overflow:auto;background:#fff;border-radius:20px;box-shadow:0 40px 100px -20px rgba(0,0,0,.45);animation:pop .3s cubic-bezier(.2,.7,.2,1)}
+@keyframes fade{from{opacity:0}}
+@keyframes pop{from{opacity:0;transform:translateY(16px) scale(.98)}}
+.modal-h{position:sticky;top:0;z-index:1;background:#fff;padding:22px 24px 16px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;align-items:flex-start}
+.modal-h h2{font-size:24px;letter-spacing:-.02em}
+.modal-h p{font-size:14px;color:var(--ink-3);margin-top:6px}
+.x{width:40px;height:40px;flex:none;border-radius:10px;border:1.5px solid var(--line);background:#fff;cursor:pointer;display:grid;place-items:center;color:var(--ink)}
+.x svg{width:18px;height:18px}
+.modal form,.recap{padding:20px 24px 24px;display:grid;gap:16px}
+.f2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:520px){.f2{grid-template-columns:1fr}}
+.field{display:grid;gap:6px;min-width:0}
+.field label{font-size:14px;font-weight:700}
+.field label span{color:var(--green-ink)}
+.field input,.field select,.field textarea{width:100%;font:inherit;font-size:16px;color:var(--ink);background:#fff;border:1.5px solid var(--line);border-radius:10px;padding:12px 14px;transition:border-color .2s,box-shadow .2s}
+.field textarea{min-height:110px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--green);box-shadow:0 0 0 4px rgba(6,193,103,.16)}
+.field .err{font-size:13px;color:#B42318;font-weight:600;min-height:0}
+.field.bad input,.field.bad select,.field.bad textarea{border-color:#E5484D}
+.hint{font-size:12.5px;color:var(--ink-3)}
+.info{display:flex;gap:10px;font-size:13.5px;color:var(--ink-2);background:var(--mist);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.info svg{width:18px;height:18px;flex:none;color:var(--green-ink);margin-top:2px}
+.recap textarea{width:100%;min-height:220px;font:13.5px/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--ink);background:var(--mist);border:1.5px solid var(--line);border-radius:12px;padding:14px;resize:vertical}
+.recap .row{display:flex;flex-wrap:wrap;gap:10px}
+.copied{font-size:14px;font-weight:700;color:var(--green-ink)}
+</style>
+
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<!-- ============ SECTION 1 — HEADER ============ -->
+<header class="site-header">
+  <div class="wrap nav">
+    <!-- LOGO : logo typographique temporaire (voir commentaire CSS .brand) -->
+    <a class="brand" href="#top" aria-label="CREATORS PARTNERS, retour en haut">CREATORS <b>PARTNERS</b><sup>TM</sup></a>
+    <nav aria-label="Navigation principale">
+      <ul class="nav-links">
+        <li><a href="#methode">La méthode</a></li>
+        <li><a href="#preuves">Résultats</a></li>
+        <li><a href="#avis">Expérience</a></li>
+      </ul>
+    </nav>
+    <div class="nav-right">
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Ouvrir le menu" id="menuBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <div class="wrap">
+      <ul>
+        <li><a href="#methode">La méthode</a></li>
+        <li><a href="#preuves">Résultats</a></li>
+        <li><a href="#avis">Expérience</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<main id="contenu">
+
+<!-- ============ SECTION 2 — HERO ============ -->
+<section class="hero" id="top" aria-labelledby="h1">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">Le réseau des créateurs UGC qui veulent entreprendre</span>
+      <h1 id="h1">Des <span class="mark">restaurants</span> prêts à <span class="accent">collaborer.</span>
+        <span class="l2">Une activité qui ne s'arrête pas <span class="hl">après chaque tournage.</span></span></h1>
+      <p class="lead">On t'aide à trouver tes premières collaborations grâce à la publicité, puis à transformer tes restaurants en clients récurrents grâce à nos méthodes, notre accompagnement et notre réseau de prestataires.</p>
+      <p class="reassure"><i aria-hidden="true"></i>Un vrai projet entrepreneurial. Pas une promesse de revenus garantis.</p>
+    </div>
+
+    <aside class="journey reveal" aria-label="Parcours d'un Partner">
+      <div class="journey-top"><span>Ton parcours</span><em>Créateur → Entrepreneur</em></div>
+      <ol class="steps">
+        <li class="step s1"><div class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="13" height="12" rx="2.5"/><path d="M16 10.5l5-3v9l-5-3"/></svg></div>
+          <div><h3>Créateur UGC</h3><p>Tu crées le contenu, avec ton visage.</p></div></li>
+        <li class="step s2"><div class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10l1.5-5h15L21 10"/><path d="M3 10a3 3 0 006 0 3 3 0 006 0 3 3 0 006 0"/><path d="M5 12v8h14v-8M10 20v-5h4v5"/></svg></div>
+          <div><h3>Restaurants</h3><p>Des restaurateurs intéressés dans ta ville.</p></div></li>
+        <li class="step s3"><div class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 13l3 3 5-6"/><rect x="3" y="3" width="18" height="18" rx="4"/></svg></div>
+          <div><h3>Collaborations</h3><p>Un premier test, un objectif concret.</p></div></li>
+        <li class="step s4"><div class="dot pulse" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></div>
+          <div><h3>Clients récurrents</h3><p>Une relation commerciale sur plusieurs mois.</p></div></li>
+      </ol>
+      <div class="loop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 11-3-6.7"/><path d="M21 4v5h-5"/></svg>Chaque restaurant peut revenir le mois suivant.</div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ PROJECTION — COMPARATIF ============ -->
+<section class="compare-sec" id="projection" aria-labelledby="h-cmp">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Projection</span>
+      <h2 id="h-cmp">Aujourd'hui, tu cherches des collaborations. <span class="hl">Demain, tu pourrais développer ton propre portefeuille de clients.</span></h2>
+    </div>
+    <div class="cmp reveal">
+      <article class="cmp-card old" aria-labelledby="cmp-a">
+        <div class="cmp-top"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="13" height="12" rx="2.5"/><path d="M16 10.5l5-3v9l-5-3"/></svg></span>
+          <div><small>Aujourd'hui</small><h3 id="cmp-a">Créateur UGC traditionnel</h3></div></div>
+        <ul>
+          <li><i aria-hidden="true"></i>Recherche constamment de nouvelles collaborations.</li>
+          <li><i aria-hidden="true"></i>Dépend des réponses des marques.</li>
+          <li><i aria-hidden="true"></i>Facture généralement des prestations ponctuelles.</li>
+          <li><i aria-hidden="true"></i>Doit régulièrement recommencer sa prospection.</li>
+        </ul>
+        <div class="cmp-foot"><span class="loop-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-3-6.7"/><path d="M21 4v5h-5"/></svg></span>Chaque mois, on repart de zéro.</div>
+      </article>
+      <div class="cmp-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+      <article class="cmp-card new" aria-labelledby="cmp-b">
+        <div class="cmp-top"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
+          <div><small>Demain</small><h3 id="cmp-b">CREATORS PARTNER</h3></div></div>
+        <ul>
+          <li><i aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></i>Développe son portefeuille de restaurateurs.</li>
+          <li><i aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></i>Utilise un système d'acquisition structuré.</li>
+          <li><i aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></i>Peut proposer des prestations récurrentes.</li>
+          <li><i aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></i>Peut développer son activité en s'appuyant sur un réseau de prestataires.</li>
+        </ul>
+        <div class="cmp-foot"><span class="loop-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16M7 16v-4M12 16V8M17 16V5"/></svg></span>Chaque nouveau client peut s'ajouter aux précédents.</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTION 3 — CRÉDIBILITÉ ============ -->
+<section class="bg-mist" id="credibilite" aria-labelledby="h-cred">
+  <div class="wrap cred-grid">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Notre expérience</span>
+      <h2 id="h-cred">On ne part pas de zéro. <span class="hl">Et toi non plus.</span></h2>
+      <p class="lead">On a déjà développé des relations avec des restaurateurs et construit des systèmes d'acquisition. Aujourd'hui, on utilise cette expérience pour aider des créateurs à développer leur propre portefeuille de clients.</p>
+      <figure class="founders">
+        <img src="media/yanis-lola.jpg" width="1400" height="933" alt="Yanis et Lola, fondateurs de Yanis & Lola Partners" loading="lazy">
+        <figcaption><strong>Yanis &amp; Lola</strong><span>Yanis &amp; Lola Partners</span></figcaption>
+      </figure>
+    </div>
+    <div>
+      <div class="cred-cards">
+        <article class="cred reveal"><div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></svg></div>
+          <div><h3>Acquisition de restaurateurs</h3><p>Des systèmes publicitaires pensés pour attirer des restaurants intéressés.</p></div><span class="tag">ACQUISITION</span></article>
+        <article class="cred reveal"><div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12l2.5 2.5L16 9"/><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/></svg></div>
+          <div><h3>Modèles de collaboration</h3><p>Des formats gagnant-gagnant pour démarrer la relation plus facilement.</p></div><span class="tag">MÉTHODE</span></article>
+        <article class="cred reveal"><div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-3-6.7"/><path d="M21 4v5h-5"/></svg></div>
+          <div><h3>Développement de revenus récurrents</h3><p>Des offres complémentaires pour prolonger la relation sur plusieurs mois.</p></div><span class="tag">RÉCURRENCE</span></article>
+      </div>
+      <!-- PREUVES CHIFFRÉES : rendues uniquement si activées dans CONFIG.stats (enabled: true) après validation. -->
+      <div class="stats" id="stats" hidden></div>
+    </div>
+  </div>
+  <!-- RÉALISATIONS : vidéos réelles (dossier media/). Ajouter une <figure class="reel"> par nouvelle vidéo. -->
+  <div class="wrap">
+    <div class="real reveal" id="realisations">
+      <div class="real-head">
+        <div><span class="eyebrow">Du concret</span><h3>Ce qu'on a déjà réalisé avec des restaurants</h3></div>
+        <p>Lancements et événements filmés sur place.</p>
+      </div>
+      <div class="reels">
+        <figure class="reel"><video src="media/artisan.mp4" poster="media/artisan.jpg" controls playsinline webkit-playsinline preload="metadata" aria-label="Vidéo de l'événement anniversaire de L'Artisan"></video>
+          <figcaption><small>Événement</small><strong>Anniversaire de L'Artisan</strong></figcaption></figure>
+        <figure class="reel"><video src="media/jad.mp4" poster="media/jad.jpg" controls playsinline webkit-playsinline preload="metadata" aria-label="Vidéo du lancement de la boulangerie Jad Bakery"></video>
+          <figcaption><small>Lancement</small><strong>Boulangerie Jad Bakery</strong></figcaption></figure>
+        <figure class="reel"><video src="media/libanaise.mp4" poster="media/libanaise.jpg" controls playsinline webkit-playsinline preload="metadata" aria-label="Vidéo du lancement du brunch de La Table Libanaise"></video>
+          <figcaption><small>Lancement</small><strong>Brunch de La Table Libanaise</strong></figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ POURQUOI MAINTENANT ? ============ -->
+<section class="why-sec" id="pourquoi" aria-labelledby="h-why">
+  <div class="wrap">
+    <div class="why-head reveal">
+      <span class="eyebrow">Pourquoi maintenant&nbsp;?</span>
+      <h2 id="h-why">Les restaurateurs ont besoin de clients. Les créateurs savent attirer l'attention. <span class="hl">Et si tu connectais les deux&nbsp;?</span></h2>
+    </div>
+    <div class="eq reveal" role="list">
+      <div class="eq-item" role="listitem">
+        <span class="eq-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10l1.5-5h15L21 10"/><path d="M3 10a3 3 0 006 0 3 3 0 006 0 3 3 0 006 0"/><path d="M5 12v8h14v-8"/></svg></span>
+        <small>Les restaurateurs</small><strong>ont besoin de clients</strong>
+      </div>
+      <span class="eq-op" aria-hidden="true">+</span>
+      <div class="eq-item" role="listitem">
+        <span class="eq-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="13" height="12" rx="2.5"/><path d="M16 10.5l5-3v9l-5-3"/></svg></span>
+        <small>Toi, créateur</small><strong>tu sais créer du contenu authentique</strong>
+      </div>
+      <span class="eq-op" aria-hidden="true">=</span>
+      <div class="eq-item res" role="listitem">
+        <span class="eq-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
+        <small>Le point de départ</small><strong>d'une activité autour de clients professionnels</strong>
+      </div>
+    </div>
+    <div class="why-txt reveal">
+      <p>Tu possèdes déjà une compétence précieuse : créer du contenu authentique. Avec une approche commerciale, une infrastructure et les bons partenaires, cette compétence peut devenir le point de départ d'une activité plus complète.</p>
+      <p class="note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8v.5"/></svg>Rien n'est automatique : une activité se construit progressivement, client après client.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTION 4 — INFRASTRUCTURE 360° ============ -->
+<section class="bg-night on-dark" id="methode" aria-labelledby="h-infra">
+  <div class="wrap">
+    <div class="infra-head reveal">
+      <div class="sec-head">
+        <span class="eyebrow">La méthode · Infrastructure 360°</span>
+        <h2 id="h-infra">Tu crées le contenu. <span class="hl">On t'aide à construire tout le business autour.</span></h2>
+      </div>
+      <div class="txt">
+        <p>Tu n'as pas besoin de devenir expert en publicité, en prospection, en closing, en fidélisation et en gestion d'agence pour commencer.</p>
+        <p>Notre rôle, c'est de mettre à ta disposition l'infrastructure que nous développons déjà.</p>
+      </div>
+    </div>
+
+    <figure class="orbit-card reveal" style="margin:0">
+      <figcaption class="orbit-title">Ton infrastructure de développement</figcaption>
+      <div class="orbit">
+        <svg class="lines" viewBox="0 0 100 100" aria-hidden="true" preserveAspectRatio="none">
+          <circle class="ring" cx="50" cy="50" r="40"/>
+          <circle class="ring" cx="50" cy="50" r="28" style="stroke-dasharray:.8 1.2"/>
+          <g>
+            <line class="ray" x1="50" y1="50" x2="50" y2="9"/><line class="ray" x1="50" y1="50" x2="84" y2="30"/><line class="ray" x1="50" y1="50" x2="84" y2="70"/>
+            <line class="ray" x1="50" y1="50" x2="50" y2="91"/><line class="ray" x1="50" y1="50" x2="16" y2="70"/><line class="ray" x1="50" y1="50" x2="16" y2="30"/>
+          </g>
+          <g>
+            <line class="flow" x1="50" y1="50" x2="50" y2="9"/><line class="flow" x1="50" y1="50" x2="84" y2="30" style="animation-delay:-.6s"/><line class="flow" x1="50" y1="50" x2="84" y2="70" style="animation-delay:-1.2s"/>
+            <line class="flow" x1="50" y1="50" x2="50" y2="91" style="animation-delay:-1.8s"/><line class="flow" x1="50" y1="50" x2="16" y2="70" style="animation-delay:-2.4s"/><line class="flow" x1="50" y1="50" x2="16" y2="30" style="animation-delay:-3s"/>
+          </g>
+        </svg>
+        <div class="core"><div><strong>YANIS &amp; LOLA<br>PARTNERS</strong><small>Au centre de ton activité</small></div></div>
+        <div class="node n1"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11v2a1 1 0 001 1h2l5 4V6L6 10H4a1 1 0 00-1 1z"/><path d="M15.5 8.5a5 5 0 010 7M18.5 5.5a9 9 0 010 13"/></svg></span><h3>Tes publicités</h3></div>
+        <div class="node n2"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10l1.5-5h15L21 10"/><path d="M3 10a3 3 0 006 0 3 3 0 006 0 3 3 0 006 0"/><path d="M5 12v8h14v-8"/></svg></span><h3>Tes restaurants</h3></div>
+        <div class="node n3"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 012-2h13v16H6a2 2 0 00-2 2z"/><path d="M8 7h7M8 11h5"/></svg></span><h3>Tes méthodes</h3></div>
+        <div class="node n4"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/></svg></span><h3>Tes prestataires</h3></div>
+        <div class="node n5"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-3-6.7"/><path d="M21 4v5h-5"/></svg></span><h3>Tes revenus récurrents</h3></div>
+        <div class="node n6"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0113 0"/><path d="M16 4.5a3.5 3.5 0 010 7M18 14a6.5 6.5 0 013.5 6"/></svg></span><h3>Ta communauté</h3></div>
+      </div>
+    </figure>
+
+    <!-- ÉCOSYSTÈME : ce que le Partner n'a pas à construire seul -->
+    <div class="eco reveal">
+      <div class="eco-head">
+        <h3>Concrètement, ce que comprend l'écosystème</h3>
+        <p>Tu rejoins un écosystème entrepreneurial. Pas une formation de plus.</p>
+      </div>
+      <ul class="eco-grid">
+        <li><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></svg></span><div><h4>Système d'acquisition publicitaire</h4><p>Pour attirer des restaurateurs intéressés.</p></div></li>
+        <li><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18l-7 8v6l-4 2v-8z"/></svg></span><div><h4>Prospection et qualification</h4><p>Des méthodes pour identifier les bons prospects.</p></div></li>
+        <li><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12l2.5 2.5L16 9"/><rect x="3" y="3" width="18" height="18" rx="4"/></svg></span><div><h4>Processus commerciaux</h4><p>Pour convertir les opportunités en clients.</p></div></li>
+        <li><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-3-6.7"/><path d="M21 4v5h-5"/></svg></span><div><h4>Fidélisation et upsell</h4><p>Des stratégies pour prolonger la relation.</p></div></li>
+        <li><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/></svg></span><div><h4>Accès aux prestataires</h4><p>Pour faire exécuter certaines prestations.</p></div></li>
+        <li><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0113 0"/><path d="M16 4.5a3.5 3.5 0 010 7M18 14a6.5 6.5 0 013.5 6"/></svg></span><div><h4>Accompagnement et communauté</h4><p>Des ressources et des Partners qui avancent avec toi.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTION 5 — ACQUISITION ============ -->
+<section id="acquisition" aria-labelledby="h-acq">
+  <div class="wrap split">
+    <div class="copy reveal">
+      <span class="eyebrow">Acquisition</span>
+      <h2 id="h-acq">Arrête de passer tes journées à envoyer des <span class="hl">DM sans réponse.</span></h2>
+      <p>Tu filmes les publicités avec ton visage. On t'accompagne sur la stratégie, le lancement et l'optimisation pour attirer des restaurants intéressés dans ta ville.</p>
+      <p class="punch">Moins de prospection à froid. Plus d'occasions de discuter avec de vrais prospects.</p>
+    </div>
+    <div class="funnel reveal">
+      <div class="panel">
+        <div class="panel-label"><span>Le parcours</span><em>Illustration</em></div>
+        <div class="acq">
+          <div class="ad" aria-label="Publicité filmée par le créateur">
+            <div class="frame"><span class="rec"><i></i>TA PUB</span>
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="32" cy="24" r="12"/><path d="M10 60c2-12 11-18 22-18s20 6 22 18"/></svg></div>
+            <div class="cap">Publicité</div>
+            <div class="bar" aria-hidden="true"><i></i></div>
+          </div>
+          <div class="arr" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+          <div class="mini"><div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10l1.5-5h15L21 10"/><path d="M3 10a3 3 0 006 0 3 3 0 006 0 3 3 0 006 0"/><path d="M5 12v8h14v-8"/></svg></div>
+            <h3>Restaurant intéressé</h3><p>Il découvre ton offre et lève la main.</p></div>
+          <div class="arr" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+          <div class="mini go"><div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
+            <h3>Prise de contact</h3><p>Une vraie discussion avec un prospect.</p></div>
+        </div>
+        <div class="chips">
+          <span class="chip off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>DM à froid</span>
+          <span class="chip off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>Relances sans fin</span>
+          <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Prospects qui viennent à toi</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- PREUVES : captures réelles (dossier media/). Noms des prospects masqués. -->
+  <div class="wrap">
+    <div class="proof reveal" id="preuves">
+      <div class="proof-col">
+        <span class="real-tag"><i aria-hidden="true"></i>Capture réelle</span>
+        <h3>Notre campagne de prospection FLJC</h3>
+        <div class="kpi-real">
+          <div><strong>43</strong><span>prospects (formulaire)</span></div>
+          <div><strong>1,73 €</strong><span>par prospect</span></div>
+          <div><strong>74,57 €</strong><span>dépensés</span></div>
+        </div>
+        <figure class="shot"><img src="media/meta-campagne.jpg" width="612" height="800" alt="Capture du gestionnaire de publicités : campagne FLJC-PROSPECTION, 43 prospects, 1,73 € par prospect, 74,57 € dépensés" loading="lazy"></figure>
+        <p class="note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8v.5"/></svg>Coût par prospect ayant rempli le formulaire, pas par collaboration signée.</p>
+      </div>
+      <div class="proof-col">
+        <span class="real-tag"><i aria-hidden="true"></i>Conversations réelles</span>
+        <h3>Des restaurateurs qui répondent et prennent rendez-vous</h3>
+        <div class="phones">
+          <figure class="shot"><img src="media/sms-3.jpg" width="600" height="1304" alt="Conversation avec un restaurateur qui propose un appel le mardi après-midi" loading="lazy"></figure>
+          <figure class="shot"><img src="media/sms-2.jpg" width="600" height="1304" alt="Conversation avec un restaurateur qui répond : oui avec plaisir" loading="lazy"></figure>
+          <figure class="shot"><img src="media/sms-1.jpg" width="600" height="1304" alt="Conversation avec un restaurateur qui propose plusieurs créneaux pour un appel" loading="lazy"></figure>
+        </div>
+        <p class="note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8v.5"/></svg>Noms des restaurateurs masqués par confidentialité.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTION 6 — COLLABORATIONS ============ -->
+<section class="bg-mist" id="collaborations" aria-labelledby="h-col">
+  <div class="wrap split rev">
+    <div class="copy reveal">
+      <span class="eyebrow">Collaborations</span>
+      <h2 id="h-col">Tes compétences méritent mieux que des collaborations <span class="hl">qui n'aboutissent jamais.</span></h2>
+      <p>Grâce à notre approche gagnant-gagnant, on propose aux restaurateurs de tester des actions pour développer leur activité sans gros investissement initial.</p>
+      <p class="punch">Tu peux ainsi démarrer une relation commerciale plus facilement, avec un objectif concret à atteindre.</p>
+    </div>
+    <div class="collab-wrap reveal">
+      <ol class="collab" aria-label="Étapes d'une collaboration" style="list-style:none;margin:0;padding:0">
+        <li class="cstep"><span class="num" aria-hidden="true">01</span><h3>Proposition test</h3><p>Une action à tester, sans gros investissement initial pour le restaurant.</p><div class="meter" aria-hidden="true"><i style="width:25%"></i></div></li>
+        <li class="cstep"><span class="num" aria-hidden="true">02</span><h3>Objectif défini</h3><p>Un objectif concret, fixé ensemble avant de commencer.</p><div class="meter" aria-hidden="true"><i style="width:50%"></i></div></li>
+        <li class="cstep"><span class="num" aria-hidden="true">03</span><h3>Action lancée</h3><p>Tu crées le contenu, l'action est mise en place et suivie.</p><div class="meter" aria-hidden="true"><i style="width:75%"></i></div></li>
+        <li class="cstep win"><span class="num" aria-hidden="true">04</span><h3>Relation démarrée</h3><p>Le bilan ouvre la porte à la suite de la relation commerciale.</p><div class="meter" aria-hidden="true"><i style="width:100%"></i></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTION 7 — RÉCURRENCE ============ -->
+<section id="resultats" aria-labelledby="h-rec">
+  <div class="wrap split">
+    <div class="copy reveal">
+      <span class="eyebrow">Fidélisation &amp; récurrence</span>
+      <h2 id="h-rec">Et si ton prochain restaurant devenait un client <span class="hl">pour plusieurs mois&nbsp;?</span></h2>
+      <p>Une fois la première collaboration réussie, tu peux lui proposer des événements, de la fidélisation, du contenu mensuel ou la gestion de ses réseaux.</p>
+      <div class="offer-list">
+        <span class="chip">Événements</span><span class="chip">Fidélisation</span><span class="chip">Contenu mensuel</span><span class="chip">Gestion des réseaux</span>
+      </div>
+      <p class="punch">Tu ne vends plus uniquement une vidéo. Tu développes une relation commerciale.</p>
+    </div>
+    <div class="finance reveal">
+      <div class="float-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10l1.5-5h15L21 10"/><path d="M5 12v8h14v-8"/></svg>1 restaurant client</div>
+      <article class="fin" aria-label="Exemple illustratif de revenus mensuels pour un restaurant, scénario hypothétique">
+        <div class="fin-top">
+          <div class="lbl"><span>Exemple illustratif / mois</span></div>
+          <span class="badge-warn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.5"/></svg>Scénario hypothétique</span>
+        </div>
+        <div class="total">750 €<small>/ mois</small></div>
+        <div class="stack" aria-hidden="true"><i class="a"></i><i class="b"></i><i class="c"></i></div>
+        <ul class="rows">
+          <li><i class="sw" style="background:var(--green)"></i><span class="lab">Événement</span><span class="val">300 €</span></li>
+          <li><i class="sw" style="background:#5ED89E"></i><span class="lab">Fidélisation</span><span class="val">200 €</span></li>
+          <li><i class="sw" style="background:var(--green-deep)"></i><span class="lab">Marge réseaux sociaux</span><span class="val">250 €</span></li>
+        </ul>
+        <p class="fin-foot">Avant charges et coûts propres. Non garanti.</p>
+      </article>
+    </div>
+  </div>
+
+  <!-- SIMULATEUR : scénarios hypothétiques basés sur l'exemple à 750 €/mois par restaurant -->
+  <div class="wrap">
+    <div class="sim reveal" id="simulateur">
+      <div class="sim-copy">
+        <span class="eyebrow">Simulation</span>
+        <h3 class="sim-title">Et si tes prochaines collaborations devenaient tes premiers clients récurrents&nbsp;?</h3>
+        <p>Déplace le curseur pour voir l'effet cumulatif des contrats récurrents, sur la base de l'exemple à 750 €/mois par restaurant.</p>
+        <div class="sim-ctrl">
+          <label for="simRange">Nombre de restaurants clients : <output id="simN" for="simRange">3</output></label>
+          <input type="range" id="simRange" min="1" max="10" step="1" value="3" aria-describedby="simNote">
+          <div class="sim-chips" role="group" aria-label="Scénarios rapides">
+            <button type="button" data-n="1">1</button><button type="button" data-n="3">3</button><button type="button" data-n="5">5</button><button type="button" data-n="10">10</button>
+          </div>
+        </div>
+      </div>
+      <div class="sim-out">
+        <div class="sim-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.5"/></svg>Scénario hypothétique</div>
+        <div class="sim-figs" aria-live="polite">
+          <div><small>Par mois</small><strong id="simM">2 250 €</strong></div>
+          <div><small>Par an</small><strong id="simY">27 000 €</strong></div>
+        </div>
+        <div class="sim-bars" id="simBars" aria-hidden="true"></div>
+        <div class="sim-axis" aria-hidden="true"><span>1</span><span>Restaurants clients</span><span>10</span></div>
+        <p class="sim-note" id="simNote">Scénarios hypothétiques, avant charges et coûts propres. Non garantis.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTION 8 — PRESTATAIRES ============ -->
+<section class="bg-mist" id="reseau" aria-labelledby="h-net">
+  <div class="wrap split rev">
+    <div class="copy reveal">
+      <span class="eyebrow">Ton réseau</span>
+      <h2 id="h-net">Tu n'as pas besoin de tout savoir faire <span class="hl">pour proposer davantage.</span></h2>
+      <p>Ton restaurant a besoin de publicité ? De community management ? D'un système de fidélisation ?</p>
+      <p class="punch">Tu peux t'appuyer sur nos prestataires spécialisés pour faire exécuter les services et conserver une marge sur les prestations vendues.</p>
+    </div>
+    <div class="net reveal">
+      <div class="partner">
+        <div class="av" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0116 0"/></svg></div>
+        <h3>Toi, Partner</h3>
+        <p>Tu gères la relation avec ton restaurant et tu vends la prestation.</p>
+        <div class="margin"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/></svg>Tu conserves une marge</div>
+      </div>
+      <ul class="services" style="list-style:none;margin:0">
+        <li class="svc"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11v2a1 1 0 001 1h2l5 4V6L6 10H4a1 1 0 00-1 1z"/><path d="M15.5 8.5a5 5 0 010 7"/></svg></span><div><h3>Publicité</h3><p>Campagnes gérées par un spécialiste.</p></div></li>
+        <li class="svc"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg></span><div><h3>Community management</h3><p>Publication et animation des réseaux.</p></div></li>
+        <li class="svc"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M7 15h4"/></svg></span><div><h3>Système de fidélisation</h3><p>Faire revenir les clients du restaurant.</p></div></li>
+        <li class="svc"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span><div><h3>Événements</h3><p>Des soirées pour remplir les creux.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTION 9 — TABLEAU DE BORD ============ -->
+<section id="tableau-de-bord" aria-labelledby="h-dash">
+  <div class="wrap">
+    <div class="dash-head reveal">
+      <div class="sec-head">
+        <span class="eyebrow">Ton activité, en chiffres</span>
+        <h2 id="h-dash">Fini d'avancer <span class="hl">à l'aveugle.</span></h2>
+      </div>
+      <p class="lead">Tu suis tes campagnes, tes prospects, tes collaborations et les revenus générés.</p>
+    </div>
+
+    <figure class="app reveal" style="margin:0" aria-label="Maquette de tableau de bord Partner, exemple fictif">
+      <div class="app-bar">
+        <div class="dots" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="url" aria-hidden="true">Tableau de bord Partner — maquette</div>
+        <span class="fict"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.5"/></svg>Exemple fictif</span>
+      </div>
+      <div class="app-body">
+        <div class="side" aria-hidden="true">
+          <div class="who"><i>CP</i>Espace Partner</div>
+          <span class="act"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>Vue d'ensemble</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 11v2a1 1 0 001 1h2l5 4V6L6 10H4a1 1 0 00-1 1z"/></svg>Campagnes</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0113 0"/></svg>Prospects</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 13l3 3 5-6"/><rect x="3" y="3" width="18" height="18" rx="4"/></svg>Collaborations</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 17l6-6 4 4 8-8"/></svg>Revenus</span>
+        </div>
+        <div class="main">
+          <div class="main-top"><h3>Tableau de bord Partner</h3><small>Données d'exemple, non réelles</small></div>
+          <div class="kpis">
+            <div class="kpi"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0113 0"/></svg>Prospects</span><strong>24</strong></div>
+            <div class="kpi"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8 13l3 3 5-6"/><rect x="3" y="3" width="18" height="18" rx="4"/></svg>Collaborations</span><strong>3</strong></div>
+            <div class="kpi hi"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/></svg>Revenus mensuels</span><strong>1 250 €</strong></div>
+          </div>
+          <div class="dash-grid">
+            <div class="chart">
+              <div class="chart-h"><b>Revenus mensuels</b><small>Courbe illustrative</small></div>
+              <!-- Échelle : y = 130 - valeur × 0,08 (0 → 130, 1 500 → 10) -->
+              <svg viewBox="0 0 340 150" role="img" aria-label="Courbe illustrative de revenus mensuels progressant jusqu'à 1 250 euros sur six mois">
+                <g stroke="#EEF2F0" stroke-width="1">
+                  <line x1="36" y1="130" x2="332" y2="130"/><line x1="36" y1="90" x2="332" y2="90"/><line x1="36" y1="50" x2="332" y2="50"/><line x1="36" y1="10" x2="332" y2="10"/>
+                </g>
+                <text x="30" y="133" text-anchor="end">0</text><text x="30" y="93" text-anchor="end">500</text><text x="30" y="53" text-anchor="end">1 000</text><text x="30" y="13" text-anchor="end">1 500</text>
+                <defs><linearGradient id="ar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#06C167" stop-opacity=".28"/><stop offset="1" stop-color="#06C167" stop-opacity="0"/></linearGradient></defs>
+                <path d="M50 130 L50 118 L106 106 L162 90 L218 74 L274 58 L326 30 L326 130 Z" fill="url(#ar)"/>
+                <path d="M50 118 L106 106 L162 90 L218 74 L274 58 L326 30" fill="none" stroke="#06C167" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+                <circle cx="326" cy="30" r="5" fill="#06C167" stroke="#fff" stroke-width="2"/>
+                <g text-anchor="middle"><text x="50" y="146">M1</text><text x="106" y="146">M2</text><text x="162" y="146">M3</text><text x="218" y="146">M4</text><text x="274" y="146">M5</text><text x="326" y="146">M6</text></g>
+              </svg>
+            </div>
+            <div class="pipe">
+              <div class="chart-h"><b>Pipeline</b><small>Exemple</small></div>
+              <ul>
+                <li>Prospect A<span class="pill p1">Nouveau</span></li>
+                <li>Prospect B<span class="pill p2">En discussion</span></li>
+                <li>Prospect C<span class="pill p3">Collaboration</span></li>
+                <li>Prospect D<span class="pill p1">Nouveau</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </figure>
+    <p class="dash-note">Maquette d'illustration. Les valeurs affichées sont fictives et ne représentent ni un outil existant ni des résultats réels.</p>
+  </div>
+</section>
+
+<!-- ============ SECTION 10 — PREMIERS PARTNERS ============ -->
+<section class="bg-mist" id="avis" aria-labelledby="h-pilot">
+  <div class="wrap pilot-grid">
+    <div class="pilot-copy reveal">
+      <span class="eyebrow">Notre expérience sur le terrain</span>
+      <h2 id="h-pilot">Derrière chaque collaboration, il y a un créateur <span class="hl">qui veut aller plus loin.</span></h2>
+      <p>Tu as peut-être déjà acheté des formations, passé des heures à prospecter et accepté des collaborations gratuites en espérant que ça débouche sur quelque chose.</p>
+      <p class="strong">On veut construire autre chose : un réseau dans lequel tu n'es pas seul à chercher des opportunités, à tester et à développer ton activité.</p>
+    </div>
+    <article class="casebook proofs reveal" aria-labelledby="h-case">
+      <div class="casebook-h">
+        <span class="status"><i aria-hidden="true"></i>Ce que tu as vu dans ce guide</span>
+        <h3 id="h-case">Nos preuves, en un coup d'œil</h3>
+        <div class="legend" aria-hidden="true"><span class="t t-real">Réel</span><span class="t t-hyp">Hypothétique</span><span class="t t-fict">Illustration</span></div>
+      </div>
+      <ul class="plist">
+        <li><a href="#preuves"><span class="t t-real">Réel</span><div><h4>Campagne publicitaire FLJC</h4><p>43 prospects à 1,73 € par prospect (formulaire), pour 74,57 € dépensés. Coût observé, pas un coût garanti par client.</p></div><svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7l10 10M17 9v8H9"/></svg></a></li>
+        <li><a href="#preuves"><span class="t t-real">Réel</span><div><h4>Échanges avec des restaurateurs</h4><p>Des restaurateurs qui répondent et acceptent un rendez-vous téléphonique.</p></div><svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7l10 10M17 9v8H9"/></svg></a></li>
+        <li><a href="#realisations"><span class="t t-real">Réel</span><div><h4>Lancements et événements réalisés</h4><p>L'Artisan, Jad Bakery, La Table Libanaise : filmés sur place.</p></div><svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7l10 10M17 9v8H9"/></svg></a></li>
+        <li><a href="#simulateur"><span class="t t-hyp">Hypothétique</span><div><h4>Projections de revenus</h4><p>Exemple à 750 €/mois et simulateur : avant charges et coûts propres, non garantis.</p></div><svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7l10 10M17 9v8H9"/></svg></a></li>
+        <li><a href="#tableau-de-bord"><span class="t t-fict">Illustration</span><div><h4>Tableau de bord Partner</h4><p>Maquette aux données fictives, pas une capture d'un outil existant.</p></div><svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7l10 10M17 9v8H9"/></svg></a></li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!-- ============ CONCLUSION ============ -->
+<section class="final on-dark" id="prochaine-etape" aria-labelledby="h-final">
+  <div class="wrap">
+    <div class="final-copy reveal">
+      <span class="eyebrow">Prochaine étape</span>
+      <h2 id="h-final"><span class="muted">La prochaine étape&nbsp;?</span> Construire ton projet ensemble.</h2>
+      <p>On a hâte d'échanger avec toi pour découvrir ton profil, tes ambitions et voir ensemble comment CREATORS PARTNERS pourrait t'aider à développer ta propre activité et tes premiers clients récurrents.</p>
+      <div class="sign">
+        <img src="media/yanis-lola.jpg" width="64" height="64" alt="" loading="lazy">
+        <div><strong>À très vite,</strong><span>Yanis &amp; Lola</span></div>
+      </div>
+    </div>
+    <div class="logo-tile reveal"><img src="data:image/jpeg;base64,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" width="360" height="360" alt="Logo CREATORS PARTNERS" loading="lazy"></div>
+  </div>
+</section>
+
+</main>
+
+
+<!-- ============ MENTIONS LÉGALES ============ -->
+<div class="legal-bar">
+  <div class="wrap">
+    <span><strong>CREATORS PARTNERS</strong> · Édité par Madame LEBRETON Lola, entrepreneur individuel · SIREN 989 958 731</span>
+    <span class="legal-links"><button type="button" class="legal-link" data-legal>Mentions légales</button><span>© 2026 Creators Partners — Tous droits réservés.</span></span>
+  </div>
+</div>
+
+<div class="modal" id="legalModal" hidden>
+  <div class="modal-bg" data-close></div>
+  <div class="modal-box legal-box" role="dialog" aria-modal="true" aria-labelledby="l-title">
+    <div class="modal-h">
+      <div><h2 id="l-title">Mentions légales</h2><p>Dernière mise à jour : 11 octobre 2026</p></div>
+      <button class="x" type="button" data-close aria-label="Fermer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <div class="legal-text">
+      <p>Conformément aux dispositions légales en vigueur, notamment à la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, les présentes mentions légales ont pour objet d'informer les utilisateurs du site Creators Partners de l'identité de son éditeur et des conditions générales d'utilisation du site.</p>
+
+      <h3>Article 1 — Éditeur du site</h3>
+      <p>Le site internet Creators Partners est édité par :</p>
+      <p>Madame LEBRETON Lola, entrepreneur individuel.</p>
+      <ul>
+        <li>Dénomination : Madame LEBRETON Lola</li>
+        <li>Forme juridique : Entrepreneur individuel (EI)</li>
+        <li>SIREN : 989 958 731</li>
+        <li>SIRET : 989 958 731 00014</li>
+        <li>Immatriculation : RCS de Melun, n° 989 958 731</li>
+        <li>Adresse professionnelle : 10 rue Françoise Rosay, 77173 Chevry-Cossigny, France</li>
+        <li>Numéro de TVA intracommunautaire : FR45989958731</li>
+        <li>Adresse électronique : contact.virtualeat@gmail.com</li>
+        <li>Téléphone : 06 18 11 22 26</li>
+      </ul>
+      <p>Directrice de la publication : Madame LEBRETON Lola.</p>
+
+      <h3>Article 2 — Hébergement du site</h3>
+      <p>Le site Creators Partners est hébergé par :</p>
+      <p>GitHub, Inc.</p>
+      <ul>
+        <li>Service d'hébergement : GitHub Pages</li>
+        <li>Raison sociale : GitHub, Inc.</li>
+        <li>Adresse : 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis</li>
+        <li>Site internet : <a href="https://pages.github.com" target="_blank" rel="noopener">https://pages.github.com</a></li>
+        <li>Téléphone : +1 877 448 4820</li>
+      </ul>
+      <p>L'hébergement du site est assuré par l'infrastructure GitHub Pages.</p>
+
+      <h3>Article 3 — Objet du site</h3>
+      <p>Le site Creators Partners présente des offres d'accompagnement, des ressources et des opportunités professionnelles destinées notamment aux créateurs de contenu UGC (User Generated Content) et aux professionnels souhaitant développer leur activité dans la création de contenu.</p>
+      <p>Les prestations présentées peuvent notamment comprendre :</p>
+      <ul>
+        <li>L'accompagnement au développement d'une activité de création de contenu UGC.</li>
+        <li>La mise à disposition de méthodes, d'outils et de ressources pédagogiques.</li>
+        <li>L'accompagnement à la prospection et au développement commercial.</li>
+        <li>L'accès à un réseau professionnel et à des opportunités de collaboration avec des établissements partenaires.</li>
+        <li>L'accompagnement à la structuration de partenariats commerciaux.</li>
+        <li>La mise en place de stratégies visant à développer des collaborations régulières.</li>
+      </ul>
+      <p>Le site permet également aux visiteurs de demander des renseignements, de déposer une candidature ou de solliciter un rendez-vous.</p>
+      <p>Les informations présentées sont fournies à titre informatif et commercial. Elles ne constituent pas une garantie de revenus, de résultats financiers ou de réussite professionnelle.</p>
+      <p>Les modalités précises des prestations et les éventuelles garanties sont définies dans les documents contractuels applicables.</p>
+
+      <h3>Article 4 — Accès au site</h3>
+      <p>L'accès au site Creators Partners est libre et gratuit, hors éventuels frais de connexion à Internet.</p>
+      <p>L'éditeur s'efforce d'assurer le bon fonctionnement et l'accessibilité du site.</p>
+      <p>Toutefois, des interruptions temporaires peuvent intervenir pour des raisons techniques, de maintenance ou indépendantes de sa volonté.</p>
+      <p>L'utilisateur s'engage à utiliser le site conformément aux lois et réglementations applicables.</p>
+
+      <h3>Article 5 — Propriété intellectuelle</h3>
+      <p>Les contenus présents sur le site Creators Partners, notamment les textes, photographies, vidéos, illustrations, éléments graphiques, logos et supports pédagogiques, sont susceptibles d'être protégés par les dispositions du Code de la propriété intellectuelle.</p>
+      <p>Sauf mention contraire, ces contenus appartiennent à l'éditeur ou sont utilisés avec l'autorisation de leurs titulaires respectifs.</p>
+      <p>Toute reproduction, représentation, modification, adaptation, diffusion ou exploitation non autorisée des contenus protégés est interdite, sous réserve des exceptions prévues par la loi.</p>
+      <p>Les marques et logos de tiers éventuellement présentés sur le site demeurent la propriété de leurs titulaires respectifs.</p>
+
+      <h3>Article 6 — Responsabilité</h3>
+      <p>L'éditeur s'efforce de fournir des informations exactes et actualisées.</p>
+      <p>Toutefois, il ne peut garantir l'absence totale d'erreurs, d'omissions ou d'informations devenues obsolètes.</p>
+      <p>Les exemples de collaborations, témoignages, études de cas et résultats financiers éventuellement présentés sur le site illustrent des situations particulières.</p>
+      <p>Ils ne constituent pas une promesse de résultats identiques pour les visiteurs ou futurs clients.</p>
+      <p>La réussite d'une activité professionnelle dépend notamment de l'implication individuelle, des compétences, de la situation du marché et de facteurs extérieurs.</p>
+      <p>L'éditeur ne saurait être tenu responsable des dommages liés à l'utilisation du site dans les limites autorisées par la législation applicable.</p>
+
+      <h3>Article 7 — Données personnelles</h3>
+      <p>Dans le cadre de l'utilisation du site Creators Partners, certaines données personnelles peuvent être collectées, notamment lorsqu'un utilisateur remplit un formulaire, sollicite des renseignements ou prend rendez-vous.</p>
+      <p>Les données susceptibles d'être collectées comprennent notamment :</p>
+      <ul>
+        <li>Le nom et le prénom.</li>
+        <li>L'adresse électronique.</li>
+        <li>Le numéro de téléphone.</li>
+        <li>La ville ou la zone géographique d'activité.</li>
+        <li>Les informations relatives à l'activité professionnelle.</li>
+        <li>Le niveau d'expérience dans la création de contenu.</li>
+        <li>Les informations communiquées volontairement dans les formulaires.</li>
+        <li>Certaines données techniques de navigation, selon les outils utilisés.</li>
+      </ul>
+      <p><strong>Responsable du traitement :</strong></p>
+      <p>Madame LEBRETON Lola<br>10 rue Françoise Rosay<br>77173 Chevry-Cossigny, France</p>
+      <p>Email : contact.virtualeat@gmail.com<br>Téléphone : 06 18 11 22 26</p>
+      <p>Les données personnelles peuvent être utilisées pour :</p>
+      <ul>
+        <li>Répondre aux demandes de renseignements.</li>
+        <li>Étudier les candidatures et demandes d'accompagnement.</li>
+        <li>Organiser les rendez-vous et échanges commerciaux.</li>
+        <li>Assurer le suivi des prospects et des clients.</li>
+        <li>Gérer les relations contractuelles.</li>
+        <li>Adresser des communications commerciales dans les conditions autorisées par la réglementation.</li>
+        <li>Améliorer le fonctionnement du site et mesurer son audience, selon les outils utilisés.</li>
+      </ul>
+      <p>Les traitements reposent sur les bases juridiques appropriées, notamment le consentement lorsqu'il est nécessaire, l'exécution de mesures précontractuelles ou contractuelles, le respect d'obligations légales et l'intérêt légitime lorsqu'il est applicable.</p>
+      <p>Les données sont conservées pendant une durée proportionnée aux finalités poursuivies et aux obligations légales applicables.</p>
+      <p>Conformément au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés, les personnes concernées disposent, selon leur situation, de droits d'accès, de rectification, d'effacement, d'opposition, de limitation du traitement et de portabilité.</p>
+      <p>Elles peuvent également retirer leur consentement lorsque le traitement repose sur celui-ci.</p>
+      <p>Pour exercer ces droits, elles peuvent contacter l'éditeur à l'adresse suivante :</p>
+      <p>contact.virtualeat@gmail.com</p>
+      <p>Les personnes concernées peuvent également introduire une réclamation auprès de la Commission nationale de l'informatique et des libertés (CNIL) sur <a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>.</p>
+      <p>Les informations complémentaires relatives aux traitements, aux destinataires des données, aux durées de conservation et aux éventuels transferts internationaux doivent être détaillées dans la politique de confidentialité du site.</p>
+
+      <h3>Article 8 — Cookies et traceurs</h3>
+      <p>Le site Creators Partners peut utiliser des cookies et autres traceurs nécessaires à son fonctionnement, ainsi que, selon les outils installés, des dispositifs de mesure d'audience et de suivi publicitaire.</p>
+      <p>Les traceurs non strictement nécessaires sont soumis aux obligations d'information et de consentement prévues par la réglementation applicable.</p>
+      <p>Lorsque le consentement est requis, les utilisateurs doivent pouvoir accepter ou refuser les traceurs et modifier leur choix à tout moment.</p>
+      <p>Les informations relatives aux traceurs effectivement utilisés et à leurs finalités sont précisées dans la politique de cookies du site.</p>
+
+      <h3>Article 9 — Liens hypertextes</h3>
+      <p>Le site Creators Partners peut contenir des liens vers des sites internet, plateformes ou services exploités par des tiers.</p>
+      <p>Ces services disposent de leurs propres conditions d'utilisation et politiques de confidentialité.</p>
+      <p>L'éditeur n'exerce pas de contrôle permanent sur leur contenu ou leur fonctionnement et ne saurait être tenu responsable de leur utilisation dans les limites prévues par la loi.</p>
+
+      <h3>Article 10 — Formulaires et candidatures</h3>
+      <p>Les formulaires disponibles sur le site permettent aux visiteurs de manifester leur intérêt pour les services et opportunités proposés par Creators Partners.</p>
+      <p>La transmission d'un formulaire, d'une candidature ou d'une demande de rendez-vous ne constitue pas une acceptation automatique au sein d'un programme d'accompagnement.</p>
+      <p>Creators Partners peut étudier les demandes reçues au regard de critères professionnels, opérationnels et commerciaux.</p>
+      <p>Toute collaboration éventuelle fait l'objet d'un accord distinct précisant notamment la nature des prestations, les conditions financières, les obligations des parties et les garanties éventuellement applicables.</p>
+
+      <h3>Article 11 — Absence de garantie de revenus</h3>
+      <p>Les services proposés par Creators Partners visent à accompagner les professionnels dans le développement de leur activité.</p>
+      <p>Toute référence à des revenus, collaborations, opportunités commerciales ou résultats obtenus par d'autres personnes est présentée à titre d'illustration.</p>
+      <p>Sauf engagement contractuel exprès, Creators Partners ne garantit aucun montant de chiffre d'affaires, de bénéfice ou de revenu professionnel.</p>
+      <p>Les éventuelles garanties commerciales spécifiques sont exclusivement celles prévues dans les contrats applicables.</p>
+
+      <h3>Article 12 — Droit applicable</h3>
+      <p>Les présentes mentions légales sont soumises au droit français.</p>
+      <p>Tout différend relatif à l'utilisation du site est soumis aux règles légales de compétence juridictionnelle applicables.</p>
+
+      <h3>Article 13 — Modification des mentions légales</h3>
+      <p>L'éditeur peut modifier les présentes mentions légales afin de tenir compte de l'évolution du site, de son activité ou de la réglementation applicable.</p>
+      <p>La version applicable est celle publiée sur le site au moment de sa consultation.</p>
+
+      <div class="legal-sign">
+        <strong>CREATORS PARTNERS</strong>
+        <p>Édité par Madame LEBRETON Lola<br>Entrepreneur individuel<br>SIREN : 989 958 731<br>Email : contact.virtualeat@gmail.com<br>Téléphone : 06 18 11 22 26</p>
+        <p>© 2026 Creators Partners — Tous droits réservés.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* =====================================================================
+   CONFIGURATION CENTRALISÉE — à compléter avant publication
+   ===================================================================== */
+const CONFIG = {
+  // Statistiques : à activer UNIQUEMENT après validation (enabled: true).
+  stats: [
+    { enabled:false, value:"37+",  label:"restaurants accompagnés", note:"À confirmer" },
+    { enabled:true, value:"< 2 €", tag:"Résultat réel", label:"Coût par résultat observé sur une campagne publicitaire FLJC", note:"Coût observé, pas un coût garanti par client ou par collaboration signée", proof:"#preuves" },
+    { enabled:false, value:"70 %", label:"de marge prévue pour le Partner sur les offres éligibles", note:"Pas un revenu garanti" }
+  ]
+};
+
+document.documentElement.classList.add('js');
+const $ = (s, r=document) => r.querySelector(s);
+const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+/* Statistiques activables */
+(() => {
+  const on = CONFIG.stats.filter(s => s.enabled);
+  const box = $('#stats');
+  if (!on.length) return;
+  box.innerHTML = on.map(s => `<div class="stat"><strong>${esc(s.value)}</strong>${s.tag?`<span class="stag"><i aria-hidden="true"></i>${esc(s.tag)}</span>`:''}<span>${esc(s.label)}</span>${s.note?`<small>${esc(s.note)}${s.proof?` · <a href="${esc(s.proof)}">Voir la capture</a>`:''}</small>`:''}</div>`).join('');
+  box.hidden = false;
+})();
+
+/* Simulateur de revenus récurrents (scénarios hypothétiques) */
+(() => {
+  const PER = 750, MAX = 10;
+  const r = $('#simRange'); if (!r) return;
+  const bars = $('#simBars');
+  bars.innerHTML = Array.from({length:MAX}, (_, i) => `<i style="height:${((i+1)/MAX*100).toFixed(1)}%"></i>`).join('');
+  const fmt = v => v.toLocaleString('fr-FR') + ' €';
+  const chips = $$('.sim-chips button');
+  function upd(n){
+    n = Math.max(1, Math.min(MAX, n|0));
+    r.value = n;
+    $('#simN').textContent = n;
+    $('#simM').textContent = fmt(n * PER);
+    $('#simY').textContent = fmt(n * PER * 12);
+    r.style.setProperty('--p', ((n - 1) / (MAX - 1) * 100) + '%');
+    r.setAttribute('aria-valuetext', `${n} restaurant${n > 1 ? 's' : ''}, ${fmt(n * PER)} par mois`);
+    $$('i', bars).forEach((b, i) => { b.classList.toggle('on', i < n); b.classList.toggle('cur', i === n - 1); });
+    chips.forEach(c => c.setAttribute('aria-pressed', String(+c.dataset.n === n)));
+  }
+  r.addEventListener('input', () => upd(+r.value));
+  chips.forEach(c => c.addEventListener('click', () => upd(+c.dataset.n)));
+  upd(+r.value);
+})();
+
+/* Lecture vidéo iPhone : si l'hébergeur ne gère pas les requêtes « Range » exigées par Safari iOS,
+   la vidéo est chargée en entier puis lue depuis la mémoire. */
+$$('.reel video').forEach(v => {
+  let tried = false;
+  const fallback = async () => {
+    if (tried) return; tried = true;
+    try {
+      const res = await fetch(v.getAttribute('src'));
+      if (!res.ok) return;
+      const blob = new Blob([await res.arrayBuffer()], { type: 'video/mp4' });
+      v.src = URL.createObjectURL(blob);
+      v.load();
+      v.play().catch(() => {});
+    } catch (e) {}
+  };
+  v.addEventListener('error', fallback);
+  v.addEventListener('play', () => setTimeout(() => { if (!v.paused && v.readyState < 2) fallback(); }, 6000));
+});
+
+/* Une seule vidéo lue à la fois */
+$$('.reel video').forEach(v => v.addEventListener('play', () => $$('.reel video').forEach(o => { if (o !== v) o.pause(); })));
+
+/* Menu mobile */
+const menuBtn = $('#menuBtn'), menu = $('#mobileMenu');
+function setMenu(open){ menu.hidden = !open; menuBtn.setAttribute('aria-expanded', String(open)); menuBtn.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu'); }
+menuBtn.addEventListener('click', () => setMenu(menu.hidden));
+$$('#mobileMenu a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+
+/* Apparition au scroll (les éléments restent lisibles au repos) */
+(() => {
+  if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const vh = innerHeight;
+  const els = $$('.reveal').filter(el => el.getBoundingClientRect().top > vh * 0.9);
+  els.forEach(el => el.classList.add('pre'));
+  const io = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting){ e.target.classList.remove('pre'); io.unobserve(e.target); } }), { rootMargin:'0px 0px -8% 0px' });
+  els.forEach(el => io.observe(el));
+})();
+
+/* Fenêtre mentions légales */
+const legal = $('#legalModal');
+let lastFocus = null;
+function openLegal(){
+  setMenu(false);
+  lastFocus = document.activeElement;
+  legal.hidden = false;
+  document.body.style.overflow = 'hidden';
+  setTimeout(() => $('.x', legal).focus(), 30);
+}
+function closeLegal(){
+  legal.hidden = true;
+  document.body.style.overflow = '';
+  if (lastFocus && lastFocus.focus) lastFocus.focus();
+}
+$$('[data-legal]').forEach(b => b.addEventListener('click', openLegal));
+$$('[data-close]', legal).forEach(el => el.addEventListener('click', closeLegal));
+document.addEventListener('keydown', e => {
+  if (legal.hidden) { if (e.key === 'Escape' && !menu.hidden) setMenu(false); return; }
+  if (e.key === 'Escape') { e.preventDefault(); closeLegal(); return; }
+  if (e.key === 'Tab') {
+    const f = $$('button,a[href]', legal).filter(el => el.offsetParent !== null);
+    if (!f.length) return;
+    const first = f[0], last = f[f.length-1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  }
+});
+// Lien direct : …#mentions-legales ouvre la fenêtre
+if (location.hash === '#mentions-legales') openLegal();
+window.addEventListener('hashchange', () => { if (location.hash === '#mentions-legales') openLegal(); });
+</script>
+
+</body></html>
